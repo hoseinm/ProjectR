@@ -1,0 +1,868 @@
+﻿Log file open, 07/21/18 21:38:14
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: ProjectR
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(1104109526) SRandInit(1104109526).
+LogInit: Read version file with build ID '3944462'
+LogInit: Overriding engine version to CL 3989454, compatible CL 3944462
+LogInit: Registered custom module enumerator with build ID '3944462'
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 2.716192
+LogD3D11RHI: Aftermath initialized
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +3:30, Platform Override: ''
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/CLionSourceCodeAccess/Binaries/Win64/UE4Editor-CLionSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeys.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeysOpenSSL.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/DataValidation/Binaries/Win64/UE4Editor-DataValidation.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Enterprise/DatasmithContent/Binaries/Win64/UE4Editor-DatasmithContent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/LinearTimecode/Binaries/Win64/UE4Editor-LinearTimecode.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/Binaries/Win64/UE4Editor-NetcodeUnitTest.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/Binaries/Win64/UE4Editor-NUTUnrealEngine4.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLink.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLinkEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCaptureEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/UnrealEnginePython/Binaries/Win64/UE4Editor-UnrealEnginePython.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/UnrealEnginePython/Binaries/Win64/UE4Editor-PythonConsole.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/UnrealEnginePython/Binaries/Win64/UE4Editor-PythonEditor.dll (API version 3944462).
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LiveLink
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin UnrealEnginePython
+LogStreaming: Display: Took  2.649s to configure plugins.
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: WinSock: I am Hosein (192.168.1.6:0)
+LogInit: Build: ++UE4+Release-4.19-CL-3989454
+LogInit: Engine Version: 4.19.1-3989454+++UE4+Release-4.19
+LogInit: Compatible Engine Version: 4.19.0-3944462+++UE4+Release-4.19
+LogInit: Net CL: 3944462
+LogDevObjectVersion: Number of dev versions registered: 18
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 23
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 33
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 25
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 6
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 1
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 2
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 16
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogInit: Compiled (64-bit): Apr  6 2018 12:26:04
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.19
+LogInit: Command Line:  
+LogInit: Base Directory: h:/Unreal Engine/Epic Games/UE_4.19/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogStreaming: Display: Took  0.007s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.07.21-17.08.18:021][  0]LogInit: Selected Device Profile: [Windows]
+[2018.07.21-17.08.18:021][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.07.21-17.08.18:133][  0]LogInit: Computer: HOSEIN
+[2018.07.21-17.08.18:133][  0]LogInit: User: Hosein
+[2018.07.21-17.08.18:133][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.07.21-17.08.18:133][  0]LogInit: High frequency timer resolution =3.914066 MHz
+[2018.07.21-17.08.18:133][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2018.07.21-17.08.18:133][  0]LogMemory: Platform Memory Stats for Windows
+[2018.07.21-17.08.18:133][  0]LogMemory: Process Physical Memory: 273.75 MB used, 273.75 MB peak
+[2018.07.21-17.08.18:133][  0]LogMemory: Process Virtual Memory: 264.85 MB used, 264.85 MB peak
+[2018.07.21-17.08.18:133][  0]LogMemory: Physical Memory: 3130.87 MB used,  29567.84 MB free, 32698.71 MB total
+[2018.07.21-17.08.18:133][  0]LogMemory: Virtual Memory: 658.86 MB used,  29567.84 MB free, 134217728.00 MB total
+[2018.07.21-17.08.18:552][  0]LogInit: Using OS detected language (en-US).
+[2018.07.21-17.08.18:552][  0]LogInit: Using OS detected locale (en-US).
+[2018.07.21-17.08.18:714][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.07.21-17.08.19:319][  0]LogStreaming: Display: Took  0.746s to EndInitTextLocalization.
+[2018.07.21-17.08.19:347][  0]LogInit: Setting process to per monitor DPI aware
+[2018.07.21-17.08.19:784][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.07.21-17.08.19:784][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.07.21-17.08.21:328][  0]LogD3D11RHI: D3D11 adapters:
+[2018.07.21-17.08.21:358][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2018.07.21-17.08.21:358][  0]LogD3D11RHI:       8100/0/16349 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.07.21-17.08.21:364][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.07.21-17.08.21:364][  0]LogD3D11RHI:       0/0/16349 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.07.21-17.08.21:364][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.07.21-17.08.21:383][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.07.21-17.08.21:385][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2018.07.21-17.08.21:385][  0]LogWindows: EnumDisplayDevices:
+[2018.07.21-17.08.21:385][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2018.07.21-17.08.21:385][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.07.21-17.08.21:385][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.07.21-17.08.21:385][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.07.21-17.08.21:385][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2018.07.21-17.08.21:385][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2018.07.21-17.08.21:386][  0]LogD3D11RHI:   Driver Version: 388.59 (internal:23.21.13.8859, unified:388.59)
+[2018.07.21-17.08.21:386][  0]LogD3D11RHI:      Driver Date: 12-5-2017
+[2018.07.21-17.08.21:386][  0]LogRHI: Texture pool is 5670 MB (70% of 8100 MB)
+[2018.07.21-17.08.21:407][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.07.21-17.08.21:407][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.07.21-17.08.21:407][  0]LogD3D11RHI: Async texture creation enabled
+[2018.07.21-17.08.21:613][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.07.21-17.08.21:729][  0]LogShaderCompilers: Guid format shader working directory is 12 characters bigger than the processId version (../../../../../Workstation/ProjectR/Intermediate/Shaders/WorkingDirectory/7144/).
+[2018.07.21-17.08.21:732][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Hosein/AppData/Local/Temp/UnrealShaderWorkingDir/790D9DBF4D133A51ABDE3FA5BA0C2F30/'.
+[2018.07.21-17.08.22:752][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.07.21-17.08.22:761][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.07.21-17.08.22:770][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.07.21-17.08.22:778][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.07.21-17.08.22:828][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.07.21-17.08.22:837][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.07.21-17.08.22:845][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.07.21-17.08.22:854][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.07.21-17.08.22:858][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.07.21-17.08.22:866][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.07.21-17.08.22:874][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.07.21-17.08.22:882][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.07.21-17.08.22:890][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
+[2018.07.21-17.08.22:898][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.07.21-17.08.22:907][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.07.21-17.08.22:922][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.07.21-17.08.22:923][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.07.21-17.08.22:950][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.07.21-17.08.22:951][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.07.21-17.08.23:034][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.07.21-17.08.23:042][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.07.21-17.08.23:049][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.07.21-17.08.23:057][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.07.21-17.08.23:065][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.07.21-17.08.23:083][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.07.21-17.08.23:083][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.07.21-17.08.23:841][  0]LogXGEController: Cleaning working directory: C:/Users/Hosein/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.07.21-17.08.23:841][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.07.21-17.08.23:847][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.07.21-17.08.23:847][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.07.21-17.08.25:479][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.07.21-17.08.25:782][  0]LogDerivedDataCache: Loaded boot cache 0.30s 74MB C:/Users/Hosein/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.07.21-17.08.25:782][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Hosein/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
+[2018.07.21-17.08.25:782][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Workstation/ProjectR/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.07.21-17.08.25:782][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.07.21-17.08.25:782][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Workstation/ProjectR/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.07.21-17.08.25:782][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.07.21-17.08.25:846][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.07.21-17.08.25:859][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Hosein/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.07.21-17.08.25:888][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.07.21-17.08.25:921][  0]LogSlate: Using Freetype 2.6.0
+[2018.07.21-17.08.26:010][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.07.21-17.08.26:010][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.07.21-17.08.30:502][  0]LogAssetRegistry: FAssetRegistry took 0.0271 seconds to start up
+[2018.07.21-17.08.33:835][  0]LogInit: Selected Device Profile: [Windows]
+[2018.07.21-17.08.34:754][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.07.21-17.08.34:777][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.07.21-17.08.34:785][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.07.21-17.08.34:785][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.07.21-17.08.34:785][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.07.21-17.08.34:785][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.07.21-17.08.34:999][  0]LogNetVersion: ProjectR , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 859984229)
+[2018.07.21-17.08.38:146][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 2 prioritized culture(s) in 0.141867 seconds
+[2018.07.21-17.08.38:171][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
+[2018.07.21-17.08.38:171][  0]LogUObjectAllocator: 7314312 out of 0 bytes used by permanent object pool.
+[2018.07.21-17.08.38:171][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.07.21-17.08.44:758][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.07.21-17.08.44:786][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.07.21-17.08.45:394][  0]SourceControl: Source control is disabled
+[2018.07.21-17.08.45:395][  0]SourceControl: Source control is disabled
+[2018.07.21-17.08.45:412][  0]SourceControl: Source control is disabled
+[2018.07.21-17.08.45:429][  0]SourceControl: Source control is disabled
+[2018.07.21-17.08.46:074][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.07.21-17.08.46:204][  0]LogOcInput: OculusInput pre-init called
+[2018.07.21-17.08.46:416][  0]LogPython: Python VM initialized: 3.6.2 (v3.6.2:5fd33b5, Jul  8 2017, 04:57:36) [MSC v.1900 64 bit (AMD64)]
+[2018.07.21-17.08.46:416][  0]LogPython: Python Scripts search path: H:\Unreal Engine\Epic Games\UE_4.19\Engine\Plugins\UnrealEnginePython
+[2018.07.21-17.08.47:201][  0]LogPython: ####################----------Python Integration for Megascans Initialized----------####################
+[2018.07.21-17.08.47:201][  0]LogPython: 
+
+[2018.07.21-17.08.47:201][  0]LogPython: H:\\Unreal Engine\\Epic Games\\UE_4.19\\Engine\\Plugins\\UnrealEnginePython/
+[2018.07.21-17.08.47:201][  0]LogPython: 
+
+[2018.07.21-17.08.48:137][  0]LogPython: Megascans Integration - LiveLink Initialized...
+[2018.07.21-17.08.48:137][  0]LogPython: 
+
+[2018.07.21-17.08.48:156][  0]LogPython: ue_site Python module successfully imported
+[2018.07.21-17.08.48:513][  0]LogEngine: Initializing Engine...
+[2018.07.21-17.08.48:528][  0]LogHMD: Failed to initialize OpenVR with code 101
+[2018.07.21-17.08.48:546][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.07.21-17.08.48:547][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.07.21-17.08.49:316][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.07.21-17.08.49:383][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.07.21-17.08.49:398][  0]LogInit: FAudioDevice initialized.
+[2018.07.21-17.08.49:757][  0]LogDerivedDataCache: Saved boot cache 0.36s 74MB C:/Users/Hosein/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.07.21-17.08.49:764][  0]LogInit: Texture streaming: Enabled
+[2018.07.21-17.08.49:811][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.07.21-17.08.50:499][  0]LogInit: Transaction tracking system initialized
+[2018.07.21-17.08.50:701][  0]BlueprintLog: New page: Editor Load
+[2018.07.21-17.08.51:347][  0]LocalizationService: Localization service is disabled
+[2018.07.21-17.08.51:899][  0]LogConsoleResponse: Display: 
+[2018.07.21-17.08.53:582][  0]LogFileCache: Scanning file cache for directory 'h:/Unreal Engine/Workstation/ProjectR/Content/' took 0.02s
+[2018.07.21-17.08.53:583][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.07.21-17.08.53:583][  0]LogCook: Display: Mobile HDR setting 1
+[2018.07.21-17.08.53:583][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.07.21-17.08.53:583][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.07.21-17.08.53:583][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.07.21-17.08.54:665][  0]SourceControl: Source control is disabled
+[2018.07.21-17.08.54:703][  0]Cmd: MAP LOAD FILE="../../../../../Workstation/ProjectR/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.07.21-17.08.54:777][  0]LightingResults: New page: Lighting Build
+[2018.07.21-17.08.54:863][  0]MapCheck: New page: Map Check
+[2018.07.21-17.08.54:863][  0]LightingResults: New page: Lighting Build
+[2018.07.21-17.08.57:269][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [16.711521ms] /Game/Mannequin/Character/Mesh/SK_Mannequin.SK_Mannequin
+[2018.07.21-17.08.57:293][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.07.21-17.08.57:711][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.07.21-17.08.57:757][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.07.21-17.08.57:781][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 23.911ms to complete.
+[2018.07.21-17.08.57:781][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 3.096
+[2018.07.21-17.08.58:948][  0]LogCollectionManager: Loaded 0 collections in 0.001000 seconds
+[2018.07.21-17.08.59:016][  0]LogFileCache: Scanning file cache for directory 'h:/Unreal Engine/Workstation/ProjectR/Saved/Collections/' took 0.01s
+[2018.07.21-17.08.59:016][  0]LogFileCache: Scanning file cache for directory 'h:/Unreal Engine/Workstation/ProjectR/Content/Developers/Hosein/Collections/' took 0.01s
+[2018.07.21-17.08.59:016][  0]LogFileCache: Scanning file cache for directory 'h:/Unreal Engine/Workstation/ProjectR/Content/Collections/' took 0.01s
+[2018.07.21-17.08.59:016][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.07.21-17.08.59:032][  0]LogContentBrowser: Native class hierarchy populated in 0.0151 seconds. Added 2474 classes and 570 folders.
+[2018.07.21-17.08.59:087][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.07.21-17.08.59:755][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.07.21-17.08.59:817][  0]LogSlate: Took 0.022354 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.07.21-17.08.59:875][  0]LogSlate: Took 0.037169 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.07.21-17.09.00:214][  0]LogRenderer: Reallocating scene render targets to support 1192x920 Format 10 NumSamples 1 (Frame:1).
+[2018.07.21-17.09.00:543][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.07.21-17.09.00:543][  0]LogLoad: (Engine Initialization) Total time: 57.33 seconds
+[2018.07.21-17.09.00:543][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.07.21-17.09.00:935][  0]LogContentStreaming: Texture pool size now 3000 MB
+[2018.07.21-17.09.01:228][  1]LogAssetRegistry: Asset discovery search completed in 30.7484 seconds
+[2018.07.21-17.09.01:229][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.07.21-17.09.01:229][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000038 seconds (updated 0 objects)
+[2018.07.21-17.09.33:203][235]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.21-17.09.33:220][235]LogSlate: Took 0.015431 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.07.21-17.09.33:282][235]LogSlate: Took 0.021981 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.07.21-17.09.34:420][364]LogSlate: Took 0.000102 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.07.21-17.09.39:969][364]LogAIModule: Creating AISystem for world ProjectR_MainHall
+[2018.07.21-17.09.40:030][364]Cmd: MAP LOAD FILE="../../../../../Workstation/ProjectR/Content/ProjectR_MainHall.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.07.21-17.09.40:030][364]LightingResults: New page: Lighting Build
+[2018.07.21-17.09.40:031][364]LoadErrors: New page: Loading map: ProjectR_MainHall.umap
+[2018.07.21-17.09.40:074][364]MapCheck: New page: Map Check
+[2018.07.21-17.09.40:074][364]LightingResults: New page: Lighting Build
+[2018.07.21-17.09.40:117][364]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.07.21-17.09.40:155][364]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.07.21-17.09.40:188][364]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 32.767ms to complete.
+[2018.07.21-17.09.40:188][364]LogFileHelpers: Loading map 'ProjectR_MainHall' took 0.166
+[2018.07.21-17.09.47:111][183]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ProjectR_MainHall_31)
+[2018.07.21-17.09.55:951][170]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.21-17.10.51:649][492]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.21-17.10.53:061][662]MapCheck: New page: Map Check
+[2018.07.21-17.10.53:123][662]Cmd: MAP REBUILD ALLVISIBLE
+[2018.07.21-17.10.53:123][662]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2018.07.21-17.10.53:340][662]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2018.07.21-17.10.53:368][662]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_2, compiling. 
+[2018.07.21-17.10.53:373][662]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.07.21-17.10.53:373][662]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy lambert4, compiling. 
+[2018.07.21-17.10.53:377][662]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy lambert3, compiling. 
+[2018.07.21-17.10.53:381][662]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy lambert1, compiling. 
+[2018.07.21-17.10.53:386][662]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy lambert5, compiling. 
+[2018.07.21-17.10.53:390][662]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy lambert9, compiling. 
+[2018.07.21-17.10.53:394][662]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy lambert8, compiling. 
+[2018.07.21-17.10.53:399][662]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy lambert7, compiling. 
+[2018.07.21-17.10.53:403][662]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy lambert6, compiling. 
+[2018.07.21-17.10.53:409][662]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy lambert10, compiling. 
+[2018.07.21-17.10.53:413][662]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy lambert11, compiling. 
+[2018.07.21-17.10.53:418][662]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy lambert12, compiling. 
+[2018.07.21-17.10.53:422][662]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy lambert13, compiling. 
+[2018.07.21-17.10.53:426][662]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.07.21-17.10.53:426][662]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.07.21-17.10.53:426][662]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.07.21-17.10.53:426][662]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy lambert14, compiling. 
+[2018.07.21-17.10.53:431][662]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy lambert15, compiling. 
+[2018.07.21-17.10.53:436][662]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy lambert16, compiling. 
+[2018.07.21-17.10.53:440][662]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy lambert17, compiling. 
+[2018.07.21-17.10.53:445][662]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy PackedMaterial1, compiling. 
+[2018.07.21-17.10.53:449][662]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy lambert18, compiling. 
+[2018.07.21-17.10.53:453][662]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy lambert19, compiling. 
+[2018.07.21-17.10.53:457][662]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy lambert22, compiling. 
+[2018.07.21-17.10.53:462][662]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy lambert21, compiling. 
+[2018.07.21-17.10.53:466][662]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy lambert20, compiling. 
+[2018.07.21-17.10.53:470][662]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy lambert24, compiling. 
+[2018.07.21-17.10.53:474][662]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy lambert23, compiling. 
+[2018.07.21-17.10.53:478][662]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy lambert25, compiling. 
+[2018.07.21-17.10.53:483][662]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy lambert26, compiling. 
+[2018.07.21-17.10.53:487][662]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy lambert27, compiling. 
+[2018.07.21-17.10.53:492][662]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy lambert28, compiling. 
+[2018.07.21-17.10.53:496][662]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy lambert29, compiling. 
+[2018.07.21-17.10.53:502][662]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy lambert30, compiling. 
+[2018.07.21-17.10.53:507][662]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy lambert31, compiling. 
+[2018.07.21-17.10.53:511][662]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy lambert32, compiling. 
+[2018.07.21-17.10.53:515][662]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy lambert33, compiling. 
+[2018.07.21-17.10.53:520][662]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy BasicShapeMaterial, compiling. 
+[2018.07.21-17.10.53:524][662]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy lambert1, compiling. 
+[2018.07.21-17.10.53:529][662]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy PackedMaterial1, compiling. 
+[2018.07.21-17.10.55:297][662]LogShaderCompilers: Display: Shaders left to compile 34
+[2018.07.21-17.10.55:297][662]LogShaderCompilers: Display: Shaders left to compile 33
+[2018.07.21-17.10.55:297][662]LogShaderCompilers: Display: Shaders left to compile 32
+[2018.07.21-17.10.55:297][662]LogShaderCompilers: Display: Shaders left to compile 31
+[2018.07.21-17.10.55:297][662]LogShaderCompilers: Display: Shaders left to compile 30
+[2018.07.21-17.10.55:297][662]LogShaderCompilers: Display: Shaders left to compile 29
+[2018.07.21-17.10.55:297][662]LogShaderCompilers: Display: Shaders left to compile 28
+[2018.07.21-17.10.55:297][662]LogShaderCompilers: Display: Shaders left to compile 27
+[2018.07.21-17.10.55:297][662]LogShaderCompilers: Display: Shaders left to compile 26
+[2018.07.21-17.10.55:297][662]LogShaderCompilers: Display: Shaders left to compile 25
+[2018.07.21-17.10.55:297][662]LogShaderCompilers: Display: Shaders left to compile 24
+[2018.07.21-17.10.55:297][662]LogShaderCompilers: Display: Shaders left to compile 23
+[2018.07.21-17.10.55:297][662]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.07.21-17.10.55:297][662]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.07.21-17.10.55:297][662]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.07.21-17.10.55:297][662]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.07.21-17.10.55:297][662]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.07.21-17.10.55:297][662]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.07.21-17.10.55:297][662]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.07.21-17.10.55:297][662]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.07.21-17.10.55:297][662]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.07.21-17.10.55:297][662]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.07.21-17.10.55:297][662]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.07.21-17.10.55:297][662]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.07.21-17.10.55:297][662]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.07.21-17.10.55:297][662]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.07.21-17.10.55:298][662]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.07.21-17.10.55:298][662]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.07.21-17.10.55:298][662]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.07.21-17.10.55:298][662]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.07.21-17.10.55:298][662]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.07.21-17.10.55:298][662]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.07.21-17.10.55:298][662]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.07.21-17.10.55:298][662]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.07.21-17.10.55:298][662]TextureStreamingBuild: Display: Compiling optional shaders took 1.966 seconds.
+[2018.07.21-17.10.55:318][662]LogLevel: Display: Export Material TexCoord Scales took 0.020 seconds.
+[2018.07.21-17.10.55:335][662]TextureStreamingBuild: Display: Build Texture Streaming took 0.016 seconds.
+[2018.07.21-17.10.55:368][662]LightingResults: New page: Lighting Build - Jul 22, 2018, 2:10:55 AM
+[2018.07.21-17.10.55:480][662]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.07.21-17.10.55:569][662]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.07.21-17.10.55:579][662]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.07.21-17.10.56:116][662]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.07.21-17.10.56:116][662]LogSwarmInterface: [TryOpenConnection] Local Process ID is 7144
+[2018.07.21-17.11.00:768][662]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.07.21-17.11.00:768][662]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.07.21-17.11.00:768][662]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.07.21-17.11.00:768][662]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.07.21-17.11.00:768][662]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.07.21-17.11.00:920][662]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2018.07.21-17.11.00:920][662]MapCheck: New page: ProjectR_MainHall - Jul 22, 2018, 2:11:00 AM
+[2018.07.21-17.11.00:921][662]MapCheck: Warning: ProjectR_MainHall_pCube10_27 Static mesh actor has NULL StaticMesh property 
+[2018.07.21-17.11.00:921][662]MapCheck: Warning: ProjectR_MainHall_pCube10_27 Static mesh actor ProjectR_MainHall_pCube10_27 has NULL StaticMesh property 
+[2018.07.21-17.11.00:921][662]MapCheck: Warning: ProjectR_MainHall_pCube11_29 Static mesh actor has NULL StaticMesh property 
+[2018.07.21-17.11.00:921][662]MapCheck: Warning: ProjectR_MainHall_pCube11_29 Static mesh actor ProjectR_MainHall_pCube11_29 has NULL StaticMesh property 
+[2018.07.21-17.11.00:921][662]MapCheck: Warning: ProjectR_MainHall_pCube12_31 Static mesh actor has NULL StaticMesh property 
+[2018.07.21-17.11.00:921][662]MapCheck: Warning: ProjectR_MainHall_pCube12_31 Static mesh actor ProjectR_MainHall_pCube12_31 has NULL StaticMesh property 
+[2018.07.21-17.11.00:921][662]MapCheck: Warning: ProjectR_MainHall_pCube13_33 Static mesh actor has NULL StaticMesh property 
+[2018.07.21-17.11.00:921][662]MapCheck: Warning: ProjectR_MainHall_pCube13_33 Static mesh actor ProjectR_MainHall_pCube13_33 has NULL StaticMesh property 
+[2018.07.21-17.11.00:921][662]MapCheck: Warning: ProjectR_MainHall_pCube14_35 Static mesh actor has NULL StaticMesh property 
+[2018.07.21-17.11.00:921][662]MapCheck: Warning: ProjectR_MainHall_pCube14_35 Static mesh actor ProjectR_MainHall_pCube14_35 has NULL StaticMesh property 
+[2018.07.21-17.11.00:921][662]MapCheck: Warning: ProjectR_MainHall_pCube3_37 Static mesh actor has NULL StaticMesh property 
+[2018.07.21-17.11.00:921][662]MapCheck: Warning: ProjectR_MainHall_pCube3_37 Static mesh actor ProjectR_MainHall_pCube3_37 has NULL StaticMesh property 
+[2018.07.21-17.11.00:921][662]MapCheck: Warning: ProjectR_MainHall_pCube4_39 Static mesh actor has NULL StaticMesh property 
+[2018.07.21-17.11.00:921][662]MapCheck: Warning: ProjectR_MainHall_pCube4_39 Static mesh actor ProjectR_MainHall_pCube4_39 has NULL StaticMesh property 
+[2018.07.21-17.11.00:921][662]MapCheck: Warning: ProjectR_MainHall_pCube5_41 Static mesh actor has NULL StaticMesh property 
+[2018.07.21-17.11.00:921][662]MapCheck: Warning: ProjectR_MainHall_pCube5_41 Static mesh actor ProjectR_MainHall_pCube5_41 has NULL StaticMesh property 
+[2018.07.21-17.11.00:921][662]MapCheck: Warning: ProjectR_MainHall_pCube6_43 Static mesh actor has NULL StaticMesh property 
+[2018.07.21-17.11.00:921][662]MapCheck: Warning: ProjectR_MainHall_pCube6_43 Static mesh actor ProjectR_MainHall_pCube6_43 has NULL StaticMesh property 
+[2018.07.21-17.11.00:922][662]MapCheck: Warning: ProjectR_MainHall_pCube7_45 Static mesh actor has NULL StaticMesh property 
+[2018.07.21-17.11.00:922][662]MapCheck: Warning: ProjectR_MainHall_pCube7_45 Static mesh actor ProjectR_MainHall_pCube7_45 has NULL StaticMesh property 
+[2018.07.21-17.11.00:922][662]MapCheck: Warning: ProjectR_MainHall_pCube7_47 Static mesh actor has NULL StaticMesh property 
+[2018.07.21-17.11.00:922][662]MapCheck: Warning: ProjectR_MainHall_pCube7_47 Static mesh actor ProjectR_MainHall_pCube7_47 has NULL StaticMesh property 
+[2018.07.21-17.11.00:922][662]MapCheck: Warning: ProjectR_MainHall_pCube8_49 Static mesh actor has NULL StaticMesh property 
+[2018.07.21-17.11.00:922][662]MapCheck: Warning: ProjectR_MainHall_pCube8_49 Static mesh actor ProjectR_MainHall_pCube8_49 has NULL StaticMesh property 
+[2018.07.21-17.11.00:922][662]MapCheck: Warning: ProjectR_MainHall_pCube8_51 Static mesh actor has NULL StaticMesh property 
+[2018.07.21-17.11.00:922][662]MapCheck: Warning: ProjectR_MainHall_pCube8_51 Static mesh actor ProjectR_MainHall_pCube8_51 has NULL StaticMesh property 
+[2018.07.21-17.11.00:922][662]MapCheck: Warning: ProjectR_MainHall_pCube9_53 Static mesh actor has NULL StaticMesh property 
+[2018.07.21-17.11.00:922][662]MapCheck: Warning: ProjectR_MainHall_pCube9_53 Static mesh actor ProjectR_MainHall_pCube9_53 has NULL StaticMesh property 
+[2018.07.21-17.11.00:922][662]MapCheck: Warning: ProjectR_MainHall_pCylinder1_55 Static mesh actor has NULL StaticMesh property 
+[2018.07.21-17.11.00:922][662]MapCheck: Warning: ProjectR_MainHall_pCylinder1_55 Static mesh actor ProjectR_MainHall_pCylinder1_55 has NULL StaticMesh property 
+[2018.07.21-17.11.00:922][662]MapCheck: Warning: ProjectR_MainHall_pCylinder2_57 Static mesh actor has NULL StaticMesh property 
+[2018.07.21-17.11.00:922][662]MapCheck: Warning: ProjectR_MainHall_pCylinder2_57 Static mesh actor ProjectR_MainHall_pCylinder2_57 has NULL StaticMesh property 
+[2018.07.21-17.11.00:922][662]MapCheck: Warning: ProjectR_MainHall_pCylinder3_59 Static mesh actor has NULL StaticMesh property 
+[2018.07.21-17.11.00:922][662]MapCheck: Warning: ProjectR_MainHall_pCylinder3_59 Static mesh actor ProjectR_MainHall_pCylinder3_59 has NULL StaticMesh property 
+[2018.07.21-17.11.00:922][662]MapCheck: Warning: ProjectR_MainHall_pCylinder4_61 Static mesh actor has NULL StaticMesh property 
+[2018.07.21-17.11.00:922][662]MapCheck: Warning: ProjectR_MainHall_pCylinder4_61 Static mesh actor ProjectR_MainHall_pCylinder4_61 has NULL StaticMesh property 
+[2018.07.21-17.11.00:922][662]MapCheck: Warning: ProjectR_MainHall_pCylinder5_63 Static mesh actor has NULL StaticMesh property 
+[2018.07.21-17.11.00:922][662]MapCheck: Warning: ProjectR_MainHall_pCylinder5_63 Static mesh actor ProjectR_MainHall_pCylinder5_63 has NULL StaticMesh property 
+[2018.07.21-17.11.00:922][662]MapCheck: Warning: ProjectR_MainHall_pCylinder6_65 Static mesh actor has NULL StaticMesh property 
+[2018.07.21-17.11.00:922][662]MapCheck: Warning: ProjectR_MainHall_pCylinder6_65 Static mesh actor ProjectR_MainHall_pCylinder6_65 has NULL StaticMesh property 
+[2018.07.21-17.11.00:922][662]MapCheck: Warning: ProjectR_MainHall_pCylinder7_67 Static mesh actor has NULL StaticMesh property 
+[2018.07.21-17.11.00:922][662]MapCheck: Warning: ProjectR_MainHall_pCylinder7_67 Static mesh actor ProjectR_MainHall_pCylinder7_67 has NULL StaticMesh property 
+[2018.07.21-17.11.00:922][662]MapCheck: Warning: ProjectR_MainHall_pCylinder8_69 Static mesh actor has NULL StaticMesh property 
+[2018.07.21-17.11.00:922][662]MapCheck: Warning: ProjectR_MainHall_pCylinder8_69 Static mesh actor ProjectR_MainHall_pCylinder8_69 has NULL StaticMesh property 
+[2018.07.21-17.11.00:922][662]MapCheck: Warning: ProjectR_MainHall_polySurface1_71 Static mesh actor has NULL StaticMesh property 
+[2018.07.21-17.11.00:922][662]MapCheck: Warning: ProjectR_MainHall_polySurface1_71 Static mesh actor ProjectR_MainHall_polySurface1_71 has NULL StaticMesh property 
+[2018.07.21-17.11.00:922][662]MapCheck: Warning: ProjectR_MainHall_polySurface1_73 Static mesh actor has NULL StaticMesh property 
+[2018.07.21-17.11.00:922][662]MapCheck: Warning: ProjectR_MainHall_polySurface1_73 Static mesh actor ProjectR_MainHall_polySurface1_73 has NULL StaticMesh property 
+[2018.07.21-17.11.00:923][662]MapCheck: Warning: ProjectR_MainHall_Start_Table_75 Static mesh actor has NULL StaticMesh property 
+[2018.07.21-17.11.00:923][662]MapCheck: Warning: ProjectR_MainHall_Start_Table_75 Static mesh actor ProjectR_MainHall_Start_Table_75 has NULL StaticMesh property 
+[2018.07.21-17.11.00:923][662]MapCheck: Warning: ProjectR_MainHall_Start_Table2_77 Static mesh actor has NULL StaticMesh property 
+[2018.07.21-17.11.00:923][662]MapCheck: Warning: ProjectR_MainHall_Start_Table2_77 Static mesh actor ProjectR_MainHall_Start_Table2_77 has NULL StaticMesh property 
+[2018.07.21-17.11.00:971][662]MapCheck: Map check complete: 0 Error(s), 52 Warning(s), took 50.663ms to complete.
+[2018.07.21-17.11.00:993][662]LogEditorBuildUtils: Build time 0:07
+[2018.07.21-17.11.01:010][662]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.21-17.11.01:146][663]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert1, compiling. 
+[2018.07.21-17.11.01:162][663]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert1, compiling. 
+[2018.07.21-17.11.01:183][663]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.07.21-17.11.01:190][664]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer PackedMaterial1, compiling. 
+[2018.07.21-17.11.01:195][664]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.07.21-17.11.01:195][664]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer PackedMaterial1, compiling. 
+[2018.07.21-17.11.01:609][664]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.07.21-17.11.02:663][713]LogSlate: Window 'Message Log' being destroyed
+[2018.07.21-17.11.02:665][713]LogSlate: Window 'Message Log' being destroyed
+[2018.07.21-17.11.04:634][904]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.21-17.11.15:280][936]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.21-17.11.15:927][936]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 116 classes and 0 folders.
+[2018.07.21-17.11.16:831][936]LogSlate: Took 0.019656 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.07.21-17.11.18:606][ 84]LogSlate: Window 'ProjectR_MainHall* - Level Blueprint Editor' being destroyed
+[2018.07.21-17.11.19:350][157]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.21-17.11.20:841][279]LogSlate: Took 0.020613 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.07.21-17.11.22:684][463]LightingResults: Warning: ProjectR_MainHall_13 Object has overlapping UVs.
+[2018.07.21-17.11.22:684][463]LightingResults: ProjectR_MainHall_13 Lightmap UV are overlapping by 21.6%. Please adjust content - Enable Error Coloring to visualize.
+[2018.07.21-17.11.27:061][892]Job is a success!
+[2018.07.21-17.12.49:525][753]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.051s
+[2018.07.21-17.12.49:525][753]LogVolumetricLightmapImport:      Indirection Texture 32x32x32 = 0.1Mb
+[2018.07.21-17.12.49:525][753]LogVolumetricLightmapImport:      BrickData 685x5x5 = 0.6Mb (trimmed 0.0Mb due to 0.010000 MinBrickError)
+[2018.07.21-17.12.49:526][753]LogVolumetricLightmapImport:      Bricks at Level
+[2018.07.21-17.12.49:526][753]LogVolumetricLightmapImport:          0: 5.8% covering 100.0% of volume
+[2018.07.21-17.12.49:526][753]LogVolumetricLightmapImport:          1: 18.2% covering 4.9% of volume
+[2018.07.21-17.12.49:526][753]LogVolumetricLightmapImport:          2: 75.9% covering 0.3% of volume
+[2018.07.21-17.12.50:002][753]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2018.07.21-17.12.50:002][753]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2018.07.21-17.12.50:002][753]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 1024X1024)
+[2018.07.21-17.12.50:002][753]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 64X64)
+[2018.07.21-17.12.50:002][753]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 1024X1024)
+[2018.07.21-17.12.50:002][753]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 64X64)
+[2018.07.21-17.12.50:058][753]LogTexture: Display: Building textures: ShadowMapTexture2D_5 (G8, 32X32)
+[2018.07.21-17.12.50:058][753]LogTexture: Display: Building textures: ShadowMapTexture2D_4 (G8, 1024X256)
+[2018.07.21-17.12.50:058][753]LogTexture: Display: Building textures: ShadowMapTexture2D_3 (G8, 512X512)
+[2018.07.21-17.12.50:096][753]Lightmass on HOSEIN: 1:47 min total, 518 ms importing, 53 ms setup, 1.97 sec photons, 1:44 min processing, 0 ms extra exporting [293/293 mappings]. Threads: 12:13 min total, 1:36 min processing.
+[2018.07.21-17.12.50:134][753]LogStaticLightingSystem: Illumination: 32.3 sec (381 ms encoding lightmaps, 55 ms encoding shadowmaps)
+[2018.07.21-17.12.50:134][753]LogStaticLightingSystem: Lightmap texture memory:  4.0 MB (2.0 MB streaming, 2.0 MB non-streaming), 6 textures
+[2018.07.21-17.12.50:134][753]LogStaticLightingSystem: Shadowmap texture memory: 0.7 MB (0.3 MB streaming, 0.3 MB non-streaming), 3 textures
+[2018.07.21-17.12.50:796][753]DumpUnbuiltLightIteractions
+[2018.07.21-17.12.50:796][753]Lights with unbuilt interactions: 0
+[2018.07.21-17.12.50:796][753]
+[2018.07.21-17.12.50:796][753]Primitives with unbuilt interactions: 0
+[2018.07.21-17.12.50:898][754]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.07.21-17.12.50:898][754]MapCheck: New page: ProjectR_MainHall - Jul 22, 2018, 2:12:50 AM
+[2018.07.21-17.12.50:898][754]MapCheck: Warning: ProjectR_MainHall_pCube10_27 Static mesh actor has NULL StaticMesh property 
+[2018.07.21-17.12.50:898][754]MapCheck: Warning: ProjectR_MainHall_pCube10_27 Static mesh actor ProjectR_MainHall_pCube10_27 has NULL StaticMesh property 
+[2018.07.21-17.12.50:898][754]MapCheck: Warning: ProjectR_MainHall_pCube11_29 Static mesh actor has NULL StaticMesh property 
+[2018.07.21-17.12.50:898][754]MapCheck: Warning: ProjectR_MainHall_pCube11_29 Static mesh actor ProjectR_MainHall_pCube11_29 has NULL StaticMesh property 
+[2018.07.21-17.12.50:898][754]MapCheck: Warning: ProjectR_MainHall_pCube12_31 Static mesh actor has NULL StaticMesh property 
+[2018.07.21-17.12.50:898][754]MapCheck: Warning: ProjectR_MainHall_pCube12_31 Static mesh actor ProjectR_MainHall_pCube12_31 has NULL StaticMesh property 
+[2018.07.21-17.12.50:898][754]MapCheck: Warning: ProjectR_MainHall_pCube13_33 Static mesh actor has NULL StaticMesh property 
+[2018.07.21-17.12.50:898][754]MapCheck: Warning: ProjectR_MainHall_pCube13_33 Static mesh actor ProjectR_MainHall_pCube13_33 has NULL StaticMesh property 
+[2018.07.21-17.12.50:898][754]MapCheck: Warning: ProjectR_MainHall_pCube14_35 Static mesh actor has NULL StaticMesh property 
+[2018.07.21-17.12.50:898][754]MapCheck: Warning: ProjectR_MainHall_pCube14_35 Static mesh actor ProjectR_MainHall_pCube14_35 has NULL StaticMesh property 
+[2018.07.21-17.12.50:898][754]MapCheck: Warning: ProjectR_MainHall_pCube3_37 Static mesh actor has NULL StaticMesh property 
+[2018.07.21-17.12.50:898][754]MapCheck: Warning: ProjectR_MainHall_pCube3_37 Static mesh actor ProjectR_MainHall_pCube3_37 has NULL StaticMesh property 
+[2018.07.21-17.12.50:898][754]MapCheck: Warning: ProjectR_MainHall_pCube4_39 Static mesh actor has NULL StaticMesh property 
+[2018.07.21-17.12.50:898][754]MapCheck: Warning: ProjectR_MainHall_pCube4_39 Static mesh actor ProjectR_MainHall_pCube4_39 has NULL StaticMesh property 
+[2018.07.21-17.12.50:898][754]MapCheck: Warning: ProjectR_MainHall_pCube5_41 Static mesh actor has NULL StaticMesh property 
+[2018.07.21-17.12.50:899][754]MapCheck: Warning: ProjectR_MainHall_pCube5_41 Static mesh actor ProjectR_MainHall_pCube5_41 has NULL StaticMesh property 
+[2018.07.21-17.12.50:899][754]MapCheck: Warning: ProjectR_MainHall_pCube6_43 Static mesh actor has NULL StaticMesh property 
+[2018.07.21-17.12.50:899][754]MapCheck: Warning: ProjectR_MainHall_pCube6_43 Static mesh actor ProjectR_MainHall_pCube6_43 has NULL StaticMesh property 
+[2018.07.21-17.12.50:899][754]MapCheck: Warning: ProjectR_MainHall_pCube7_45 Static mesh actor has NULL StaticMesh property 
+[2018.07.21-17.12.50:899][754]MapCheck: Warning: ProjectR_MainHall_pCube7_45 Static mesh actor ProjectR_MainHall_pCube7_45 has NULL StaticMesh property 
+[2018.07.21-17.12.50:899][754]MapCheck: Warning: ProjectR_MainHall_pCube7_47 Static mesh actor has NULL StaticMesh property 
+[2018.07.21-17.12.50:899][754]MapCheck: Warning: ProjectR_MainHall_pCube7_47 Static mesh actor ProjectR_MainHall_pCube7_47 has NULL StaticMesh property 
+[2018.07.21-17.12.50:899][754]MapCheck: Warning: ProjectR_MainHall_pCube8_49 Static mesh actor has NULL StaticMesh property 
+[2018.07.21-17.12.50:899][754]MapCheck: Warning: ProjectR_MainHall_pCube8_49 Static mesh actor ProjectR_MainHall_pCube8_49 has NULL StaticMesh property 
+[2018.07.21-17.12.50:899][754]MapCheck: Warning: ProjectR_MainHall_pCube8_51 Static mesh actor has NULL StaticMesh property 
+[2018.07.21-17.12.50:899][754]MapCheck: Warning: ProjectR_MainHall_pCube8_51 Static mesh actor ProjectR_MainHall_pCube8_51 has NULL StaticMesh property 
+[2018.07.21-17.12.50:899][754]MapCheck: Warning: ProjectR_MainHall_pCube9_53 Static mesh actor has NULL StaticMesh property 
+[2018.07.21-17.12.50:899][754]MapCheck: Warning: ProjectR_MainHall_pCube9_53 Static mesh actor ProjectR_MainHall_pCube9_53 has NULL StaticMesh property 
+[2018.07.21-17.12.50:899][754]MapCheck: Warning: ProjectR_MainHall_pCylinder1_55 Static mesh actor has NULL StaticMesh property 
+[2018.07.21-17.12.50:899][754]MapCheck: Warning: ProjectR_MainHall_pCylinder1_55 Static mesh actor ProjectR_MainHall_pCylinder1_55 has NULL StaticMesh property 
+[2018.07.21-17.12.50:899][754]MapCheck: Warning: ProjectR_MainHall_pCylinder2_57 Static mesh actor has NULL StaticMesh property 
+[2018.07.21-17.12.50:899][754]MapCheck: Warning: ProjectR_MainHall_pCylinder2_57 Static mesh actor ProjectR_MainHall_pCylinder2_57 has NULL StaticMesh property 
+[2018.07.21-17.12.50:899][754]MapCheck: Warning: ProjectR_MainHall_pCylinder3_59 Static mesh actor has NULL StaticMesh property 
+[2018.07.21-17.12.50:899][754]MapCheck: Warning: ProjectR_MainHall_pCylinder3_59 Static mesh actor ProjectR_MainHall_pCylinder3_59 has NULL StaticMesh property 
+[2018.07.21-17.12.50:899][754]MapCheck: Warning: ProjectR_MainHall_pCylinder4_61 Static mesh actor has NULL StaticMesh property 
+[2018.07.21-17.12.50:899][754]MapCheck: Warning: ProjectR_MainHall_pCylinder4_61 Static mesh actor ProjectR_MainHall_pCylinder4_61 has NULL StaticMesh property 
+[2018.07.21-17.12.50:899][754]MapCheck: Warning: ProjectR_MainHall_pCylinder5_63 Static mesh actor has NULL StaticMesh property 
+[2018.07.21-17.12.50:899][754]MapCheck: Warning: ProjectR_MainHall_pCylinder5_63 Static mesh actor ProjectR_MainHall_pCylinder5_63 has NULL StaticMesh property 
+[2018.07.21-17.12.50:899][754]MapCheck: Warning: ProjectR_MainHall_pCylinder6_65 Static mesh actor has NULL StaticMesh property 
+[2018.07.21-17.12.50:899][754]MapCheck: Warning: ProjectR_MainHall_pCylinder6_65 Static mesh actor ProjectR_MainHall_pCylinder6_65 has NULL StaticMesh property 
+[2018.07.21-17.12.50:899][754]MapCheck: Warning: ProjectR_MainHall_pCylinder7_67 Static mesh actor has NULL StaticMesh property 
+[2018.07.21-17.12.50:899][754]MapCheck: Warning: ProjectR_MainHall_pCylinder7_67 Static mesh actor ProjectR_MainHall_pCylinder7_67 has NULL StaticMesh property 
+[2018.07.21-17.12.50:899][754]MapCheck: Warning: ProjectR_MainHall_pCylinder8_69 Static mesh actor has NULL StaticMesh property 
+[2018.07.21-17.12.50:900][754]MapCheck: Warning: ProjectR_MainHall_pCylinder8_69 Static mesh actor ProjectR_MainHall_pCylinder8_69 has NULL StaticMesh property 
+[2018.07.21-17.12.50:900][754]MapCheck: Warning: ProjectR_MainHall_polySurface1_71 Static mesh actor has NULL StaticMesh property 
+[2018.07.21-17.12.50:900][754]MapCheck: Warning: ProjectR_MainHall_polySurface1_71 Static mesh actor ProjectR_MainHall_polySurface1_71 has NULL StaticMesh property 
+[2018.07.21-17.12.50:900][754]MapCheck: Warning: ProjectR_MainHall_polySurface1_73 Static mesh actor has NULL StaticMesh property 
+[2018.07.21-17.12.50:900][754]MapCheck: Warning: ProjectR_MainHall_polySurface1_73 Static mesh actor ProjectR_MainHall_polySurface1_73 has NULL StaticMesh property 
+[2018.07.21-17.12.50:900][754]MapCheck: Warning: ProjectR_MainHall_Start_Table_75 Static mesh actor has NULL StaticMesh property 
+[2018.07.21-17.12.50:900][754]MapCheck: Warning: ProjectR_MainHall_Start_Table_75 Static mesh actor ProjectR_MainHall_Start_Table_75 has NULL StaticMesh property 
+[2018.07.21-17.12.50:900][754]MapCheck: Warning: ProjectR_MainHall_Start_Table2_77 Static mesh actor has NULL StaticMesh property 
+[2018.07.21-17.12.50:900][754]MapCheck: Warning: ProjectR_MainHall_Start_Table2_77 Static mesh actor ProjectR_MainHall_Start_Table2_77 has NULL StaticMesh property 
+[2018.07.21-17.12.50:936][754]MapCheck: Map check complete: 0 Error(s), 52 Warning(s), took 38.586ms to complete.
+[2018.07.21-17.12.52:461][925]LogSlate: Window 'Message Log' being destroyed
+[2018.07.21-17.12.52:463][925]LogSlate: Window 'Message Log' being destroyed
+[2018.07.21-17.12.53:852][ 92]LogTemp: Repeating last play command: Selected Viewport
+[2018.07.21-17.12.53:885][ 92]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel' has LevelScriptBlueprint '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall' with GeneratedClass '/Game/ProjectR_MainHall.ProjectR_MainHall_C' with ClassGeneratedBy '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall'
+[2018.07.21-17.12.53:885][ 92]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.07.21-17.12.53:887][ 92]LogPlayLevel: [PlayLevel] Compiling ProjectR_MainHall before play...
+[2018.07.21-17.12.53:904][ 92]LogPlayLevel: PlayLevel: Blueprint regeneration took 18 ms (1 blueprints)
+[2018.07.21-17.12.53:904][ 92]PIE: New page: PIE session: ProjectR_MainHall (Jul 22, 2018, 2:12:53 AM)
+[2018.07.21-17.12.53:904][ 92]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_ProjectR_MainHall
+[2018.07.21-17.12.53:926][ 92]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021554s)
+[2018.07.21-17.12.53:926][ 92]LogAIModule: Creating AISystem for world ProjectR_MainHall
+[2018.07.21-17.12.53:926][ 92]LogPlayLevel: PIE: World Init took: (0.000458s)
+[2018.07.21-17.12.53:926][ 92]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ProjectR_MainHall.ProjectR_MainHall to /Game/UEDPIE_0_ProjectR_MainHall.ProjectR_MainHall (0.022167s)
+[2018.07.21-17.12.53:943][ 92]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.07.21-17.12.53:957][ 92]LogInit: FAudioDevice initialized.
+[2018.07.21-17.12.54:003][ 92]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.07.21-17.12.54:018][ 92]LogWorld: Bringing World /Game/UEDPIE_0_ProjectR_MainHall.ProjectR_MainHall up for play (max tick rate 0) at 2018.07.21-21.42.54
+[2018.07.21-17.12.54:019][ 92]LogWorld: Bringing up level for play took: 0.003364
+[2018.07.21-17.12.54:085][ 92]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0002 seconds. Added 11 classes and 0 folders.
+[2018.07.21-17.12.54:114][ 92]PIE: Play in editor start time for /Game/UEDPIE_0_ProjectR_MainHall -0.031
+[2018.07.21-17.12.54:114][ 92]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel' has LevelScriptBlueprint '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall' with GeneratedClass '/Game/ProjectR_MainHall.ProjectR_MainHall_C' with ClassGeneratedBy '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall'
+[2018.07.21-17.13.56:841][612]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel' has LevelScriptBlueprint '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall' with GeneratedClass '/Game/ProjectR_MainHall.ProjectR_MainHall_C' with ClassGeneratedBy '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall'
+[2018.07.21-17.13.56:876][612]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel' has LevelScriptBlueprint '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall' with GeneratedClass '/Game/ProjectR_MainHall.ProjectR_MainHall_C' with ClassGeneratedBy '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall'
+[2018.07.21-17.13.58:222][770]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (TriggerBox)
+[2018.07.21-17.14.06:897][800]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.21-17.16.35:674][590]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.21-17.16.46:513][876]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ProjectR_MainHall_32)
+[2018.07.21-17.16.48:080][ 57]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (ProjectR_MainHall_31)
+[2018.07.21-17.16.50:458][338]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.21-17.17.53:743][814]LogSlate: Window 'Source Control Login' being destroyed
+[2018.07.21-17.18.05:461][ 26]LogSourceControl: Error: P4ERROR: Invalid connection to server.
+[2018.07.21-17.18.05:461][ 26]LogSourceControl: Error: Connect to server failed; check $P4PORT.
+TCP connect to perforce:1666 failed.
+connect: 127.8.0.2:1666: WSAECONNREFUSED
+
+[2018.07.21-17.18.15:906][278]LogSourceControl: Error: P4ERROR: Invalid connection to server.
+[2018.07.21-17.18.15:906][278]LogSourceControl: Error: Connect to server failed; check $P4PORT.
+TCP connect to perforce:1666 failed.
+connect: 127.8.0.2:1666: WSAECONNREFUSED
+
+[2018.07.21-17.18.25:914][480]LogSourceControl: Error: P4ERROR: Invalid connection to server.
+[2018.07.21-17.18.25:914][480]LogSourceControl: Error: Connect to server failed; check $P4PORT.
+TCP connect to perforce:1666 failed.
+connect: 127.8.0.2:1666: WSAECONNREFUSED
+
+[2018.07.21-17.18.25:918][480]SourceControl: Error: Failed to connect to source control. Check your settings and connection then try again.
+[2018.07.21-17.18.33:895][436]LogSlate: Window 'Message Log' being destroyed
+[2018.07.21-17.18.33:897][436]LogSlate: Window 'Message Log' being destroyed
+[2018.07.21-17.19.00:369][611]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2018.07.21-17.19.00:369][611]LogWindows: Warning: URL: C:/Program Files/Git/bin/git.exe version
+[2018.07.21-17.19.00:369][611]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2018.07.21-17.19.00:369][611]LogWindows: Warning: URL: C:/Program Files (x86)/Git/bin/git.exe version
+[2018.07.21-17.19.00:369][611]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2018.07.21-17.19.00:369][611]LogWindows: Warning: URL: C:\Users\Hosein\AppData\Local/Programs/Git/cmd/git.exe version
+[2018.07.21-17.19.00:370][611]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2018.07.21-17.19.00:370][611]LogWindows: Warning: URL: C:/Program Files (x86)/SmartGit/git/bin/git.exe version
+[2018.07.21-17.19.00:370][611]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2018.07.21-17.19.00:370][611]LogWindows: Warning: URL: C:/Program Files (x86)/SmartGit/bin/git.exe version
+[2018.07.21-17.19.00:370][611]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2018.07.21-17.19.00:370][611]LogWindows: Warning: URL: C:\Users\Hosein\AppData\Local/Atlassian/SourceTree/git_local/bin/git.exe version
+[2018.07.21-17.19.00:370][611]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2018.07.21-17.19.00:370][611]LogWindows: Warning: URL: C:/Program Files (x86)/fournova/Tower/vendor/Git/bin/git.exe version
+[2018.07.21-17.20.16:423][777]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2018.07.21-17.20.16:423][777]LogWindows: Warning: URL: https://github.com/khokialism/ProjectR.git version
+[2018.07.21-17.20.40:291][567]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2018.07.21-17.20.40:291][567]LogWindows: Warning: URL: https://github.com/khokialism/ProjectR.git version
+[2018.07.21-17.20.40:291][567]SourceControl: Error: Failed to enable Git source control. You need to install Git and specify a valid path to git executable.
+[2018.07.21-17.20.45:763][210]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ProjectR_MainHall" FILE="../../../../../Workstation/ProjectR/Saved/Autosaves/Game/ProjectR_MainHall_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2018.07.21-17.20.46:174][210]LogSavePackage: Save=257.21ms
+[2018.07.21-17.20.46:174][210]LogSavePackage: Moving '../../../../../Workstation/ProjectR/Saved/ProjectR_MainHall_Auto1FE90D35C4C94953DB335C196F0D3C880.tmp' to '../../../../../Workstation/ProjectR/Saved/Autosaves/Game/ProjectR_MainHall_Auto1.umap'
+[2018.07.21-17.20.46:216][210]LogSavePackage: Display: Finished SavePackage ../../../../../Workstation/ProjectR/Saved/Autosaves/Game/ProjectR_MainHall_Auto1.umap
+[2018.07.21-17.20.46:242][210]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ProjectR_MainHall' took 0.546
+[2018.07.21-17.20.46:242][210]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.546
+[2018.07.21-17.20.46:243][210]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ProjectR_MainHall_BuiltData] ([1] browsable assets)...
+[2018.07.21-17.20.46:243][210]OBJ SavePackage: Finished generating thumbnails for package [/Game/ProjectR_MainHall_BuiltData]
+[2018.07.21-17.20.46:243][210]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ProjectR_MainHall_BuiltData" FILE="../../../../../Workstation/ProjectR/Saved/Autosaves/Game/ProjectR_MainHall_BuiltData_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2018.07.21-17.20.46:307][210]LogSavePackage: Save=13.93ms
+[2018.07.21-17.20.46:307][210]LogSavePackage: Moving '../../../../../Workstation/ProjectR/Saved/ProjectR_MainHall_BuiltData_AutoD89C87D6439064594770EAB4425827E5.tmp' to '../../../../../Workstation/ProjectR/Saved/Autosaves/Game/ProjectR_MainHall_BuiltData_Auto1.uasset'
+[2018.07.21-17.20.46:307][210]LogSavePackage: Display: Finished SavePackage ../../../../../Workstation/ProjectR/Saved/Autosaves/Game/ProjectR_MainHall_BuiltData_Auto1.uasset
+[2018.07.21-17.20.46:307][210]LogFileHelpers: Auto-saving content packages took 0.065
+[2018.07.21-17.24.43:081][  5]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2018.07.21-17.24.43:081][  5]LogWindows: Warning: URL: https://github.com/khokialism/ProjectR.git version
+[2018.07.21-17.24.43:081][  5]SourceControl: Error: Failed to enable Git source control. You need to install Git and specify a valid path to git executable.
+[2018.07.21-17.37.53:992][122]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2018.07.21-17.37.53:992][122]LogWindows: Warning: URL: https://github.com/khokialism/ProjectR.git version
+[2018.07.21-17.37.53:992][122]SourceControl: Error: Failed to enable Git source control. You need to install Git and specify a valid path to git executable.
+[2018.07.21-17.37.55:963][358]SourceControl: Source control is disabled
+[2018.07.21-17.37.55:964][358]LogSlate: Window 'Source Control Login' being destroyed
+[2018.07.21-17.37.56:839][463]LogSlate: Window 'Message Log' being destroyed
+[2018.07.21-17.37.56:841][463]LogSlate: Window 'Message Log' being destroyed
+[2018.07.21-17.37.58:770][694]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (ProjectR_MainHall_32)
+[2018.07.21-17.37.58:797][694]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.21-17.38.03:159][213]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (ProjectR_MainHall_31)
+[2018.07.21-17.38.03:175][213]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.21-17.38.10:756][121]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.21-17.38.27:990][775]LogSlate: Window 'Pick Parent Class' being destroyed
+[2018.07.21-17.38.39:711][175]LogMetaData: Removing '/Game/Blueprints/BP_MainHallDoor.BP_MainHallDoor:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/BP_Door.PackageMetaData'
+[2018.07.21-17.38.39:711][175]LogMetaData: Removing '/Game/Blueprints/BP_MainHallDoor.SKEL_BP_MainHallDoor_C' ref from Metadata '/Game/Blueprints/BP_Door.PackageMetaData'
+[2018.07.21-17.38.39:711][175]LogMetaData: Removing '/Game/Blueprints/BP_MainHallDoor.BP_MainHallDoor_C' ref from Metadata '/Game/Blueprints/BP_Door.PackageMetaData'
+[2018.07.21-17.38.39:711][175]LogMetaData: Removing '/Game/Blueprints/BP_MainHallDoor.BP_MainHallDoor:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Blueprints/BP_Door.PackageMetaData'
+[2018.07.21-17.38.39:711][175]LogMetaData: Removing '/Game/Blueprints/BP_MainHallDoor.BP_MainHallDoor:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Blueprints/BP_Door.PackageMetaData'
+[2018.07.21-17.38.39:711][175]LogMetaData: Removing '/Game/Blueprints/BP_MainHallDoor.BP_MainHallDoor:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Blueprints/BP_Door.PackageMetaData'
+[2018.07.21-17.38.39:726][175]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_MainHallDoor" FILE="../../../../../Workstation/ProjectR/Content/Blueprints/BP_MainHallDoor.uasset" SILENT=true
+[2018.07.21-17.38.39:734][175]LogSavePackage: Save=6.56ms
+[2018.07.21-17.38.39:734][175]LogSavePackage: Moving '../../../../../Workstation/ProjectR/Saved/BP_MainHallDoorE8EABBBC42F694B844422899395FADBE.tmp' to '../../../../../Workstation/ProjectR/Content/Blueprints/BP_MainHallDoor.uasset'
+[2018.07.21-17.38.39:753][175]LogSavePackage: Display: Finished SavePackage ../../../../../Workstation/ProjectR/Content/Blueprints/BP_MainHallDoor.uasset
+[2018.07.21-17.39.11:729][748]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.21-17.39.24:434][263]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.21-17.39.30:267][958]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.21-17.39.37:706][829]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.21-17.39.49:590][251]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.21-17.39.58:516][303]LogEditorTransaction: Undo Modify Component(s)
+[2018.07.21-17.40.03:724][922]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.21-17.40.08:358][339]LogSlate: Window 'Delete Assets' being destroyed
+[2018.07.21-17.40.12:730][774]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ProjectR_MainHall_1)
+[2018.07.21-17.40.13:290][834]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ProjectR_MainHall_1)
+[2018.07.21-17.40.14:932][ 29]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (TriggerBox)
+[2018.07.21-17.40.15:876][138]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.21-17.40.33:909][275]LogSlate: Window 'ProjectR_MainHall* - Level Blueprint Editor' being destroyed
+[2018.07.21-17.42.12:743][ 85]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.21-17.42.25:363][588]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ProjectR_MainHall" FILE="../../../../../Workstation/ProjectR/Content/ProjectR_MainHall.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.07.21-17.42.25:598][588]LogSavePackage: Save=211.72ms
+[2018.07.21-17.42.25:598][588]LogSavePackage: Moving '../../../../../Workstation/ProjectR/Saved/ProjectR_MainHallF21587F14E707D9B75736498354833DD.tmp' to '../../../../../Workstation/ProjectR/Content/ProjectR_MainHall.umap'
+[2018.07.21-17.42.25:625][588]LogSavePackage: Display: Finished SavePackage ../../../../../Workstation/ProjectR/Content/ProjectR_MainHall.umap
+[2018.07.21-17.42.25:644][588]LogFileHelpers: Saving map 'ProjectR_MainHall' took 0.319
+[2018.07.21-17.42.25:646][588]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ProjectR_MainHall_BuiltData" FILE="../../../../../Workstation/ProjectR/Content/ProjectR_MainHall_BuiltData.uasset" SILENT=true
+[2018.07.21-17.42.25:772][588]LogSavePackage: Save=119.63ms
+[2018.07.21-17.42.25:772][588]LogSavePackage: Moving '../../../../../Workstation/ProjectR/Saved/ProjectR_MainHall_BuiltData9C34B8BA482E6E1850AFA2B7625D086D.tmp' to '../../../../../Workstation/ProjectR/Content/ProjectR_MainHall_BuiltData.uasset'
+[2018.07.21-17.42.25:798][588]LogSavePackage: Display: Finished SavePackage ../../../../../Workstation/ProjectR/Content/ProjectR_MainHall_BuiltData.uasset
+[2018.07.21-17.42.32:432][374]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.21-17.42.52:065][504]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.ProjectR
+[2018.07.21-17.42.52:065][504]LogTemp: CWD: h:\Unreal Engine\Epic Games\UE_4.19\Engine\Binaries\DotNET\IOS
+[2018.07.21-17.42.52:065][504]LogTemp: Initial Dir: h:\Unreal Engine\Epic Games\UE_4.19
+[2018.07.21-17.42.52:065][504]LogTemp: Env CWD: h:\Unreal Engine\Epic Games\UE_4.19\Engine\Binaries\DotNET\IOS
+[2018.07.21-17.42.52:065][504]LogTemp: BranchPath = HOSEIN/h/Unreal Engine/Epic Games/UE_4.19/Engine/Binaries --- GameBranchPath = HOSEIN/h/Unreal Engine/Epic Games/UE_4.19/Engine/Binaries
+[2018.07.21-17.42.52:065][504]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Hosein\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.07.21-17.42.52:065][504]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.07.21-17.42.59:499][361]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.07.21-17.43.09:124][508]LogSlate: Window 'Project Settings' being destroyed
+[2018.07.21-17.43.09:126][508]LogSlate: Window 'Project Settings' being destroyed
+[2018.07.21-17.43.14:925][193]Cmd: SELECT NONE
+[2018.07.21-17.43.15:200][223]Cmd: SELECT NONE
+[2018.07.21-17.43.15:383][245]Cmd: SELECT NONE
+[2018.07.21-17.43.38:118][963]LogSlate: Window 'Hierarchical LOD Outliner' being destroyed
+[2018.07.21-17.43.38:121][963]LogSlate: Window 'Hierarchical LOD Outliner' being destroyed
+[2018.07.21-17.43.45:004][779]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (TriggerBox)
+[2018.07.21-17.43.45:995][891]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.21-17.44.59:181][659]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ProjectR_MainHall_31)
+[2018.07.21-17.45.00:719][840]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (ProjectR_MainHall_31)
+[2018.07.21-17.45.00:754][840]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.21-17.45.05:327][386]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (ProjectR_MainHall_31)
+[2018.07.21-17.45.05:344][386]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.21-17.45.19:951][130]Cmd: SELECT NONE
+[2018.07.21-17.45.23:175][510]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.21-17.45.24:794][640]LogTexture: Display: Building textures: Texture2D_2 (G8, 128X128)
+[2018.07.21-17.45.31:277][383]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.21-17.46.00:790][914]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.21-17.46.15:471][658]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.21-17.46.16:681][791]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 512X512)
+[2018.07.21-17.46.18:524][998]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.21-17.46.27:935][ 99]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.21-17.46.32:464][634]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.21-17.46.50:618][666]LogWindows: Error: === Critical error: ===
+[2018.07.21-17.46.50:618][666]LogWindows: Error: 
+[2018.07.21-17.46.50:618][666]LogWindows: Error: Fatal error!
+[2018.07.21-17.46.50:618][666]LogWindows: Error: 
+[2018.07.21-17.46.50:618][666]LogWindows: Error: Unhandled Exception: EXCEPTION_ACCESS_VIOLATION reading address 0x00000080
+[2018.07.21-17.46.50:618][666]LogWindows: Error: 
+[2018.07.21-17.46.50:618][666]LogWindows: Error: [Callstack] 0x00000000304557A9 UE4Editor-Landscape.dll!UnknownFunction []
+[2018.07.21-17.46.50:618][666]LogWindows: Error: [Callstack] 0x00000000303D7667 UE4Editor-Landscape.dll!UnknownFunction []
+[2018.07.21-17.46.50:618][666]LogWindows: Error: [Callstack] 0x0000000027DE0DCF UE4Editor-Renderer.dll!UnknownFunction []
+[2018.07.21-17.46.50:618][666]LogWindows: Error: [Callstack] 0x000000002A1ED4CB UE4Editor-Engine.dll!UnknownFunction []
+[2018.07.21-17.46.50:618][666]LogWindows: Error: [Callstack] 0x0000000030438388 UE4Editor-Landscape.dll!UnknownFunction []
+[2018.07.21-17.46.50:618][666]LogWindows: Error: [Callstack] 0x000000000B374AEF UE4Editor-LandscapeEditor.dll!UnknownFunction []
+[2018.07.21-17.46.50:618][666]LogWindows: Error: [Callstack] 0x000000000B2E8164 UE4Editor-LandscapeEditor.dll!UnknownFunction []
+[2018.07.21-17.46.50:618][666]LogWindows: Error: [Callstack] 0x000000000B295023 UE4Editor-LandscapeEditor.dll!UnknownFunction []
+[2018.07.21-17.46.50:618][666]LogWindows: Error: [Callstack] 0x000000000B2AC2B6 UE4Editor-LandscapeEditor.dll!UnknownFunction []
+[2018.07.21-17.46.50:618][666]LogWindows: Error: [Callstack] 0x000000000B32FB5E UE4Editor-LandscapeEditor.dll!UnknownFunction []
+[2018.07.21-17.46.50:618][666]LogWindows: Error: [Callstack] 0x00000000288B65B1 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.07.21-17.46.50:618][666]LogWindows: Error: [Callstack] 0x0000000028925037 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.07.21-17.46.50:618][666]LogWindows: Error: [Callstack] 0x0000000028CF2EB0 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.07.21-17.46.50:618][666]LogWindows: Error: [Callstack] 0x000000002AD09126 UE4Editor-Engine.dll!UnknownFunction []
+[2018.07.21-17.46.50:618][666]LogWindows: Error: [Callstack] 0x0000000032306944 UE4Editor-Slate.dll!UnknownFunction []
+[2018.07.21-17.46.50:618][666]LogWindows: Error: [Callstack] 0x00000000320A5366 UE4Editor-Slate.dll!UnknownFunction []
+[2018.07.21-17.46.50:618][666]LogWindows: Error: [Callstack] 0x00000000320772DC UE4Editor-Slate.dll!UnknownFunction []
+[2018.07.21-17.46.50:618][666]LogWindows: Error: [Callstack] 0x000000003210DAB7 UE4Editor-Slate.dll!UnknownFunction []
+[2018.07.21-17.46.50:618][666]LogWindows: Error: [Callstack] 0x00000000320F782C UE4Editor-Slate.dll!UnknownFunction []
+[2018.07.21-17.46.50:618][666]LogWindows: Error: [Callstack] 0x00000000320EAD33 UE4Editor-Slate.dll!UnknownFunction []
+[2018.07.21-17.46.50:618][666]LogWindows: Error: [Callstack] 0x000000004938E73E UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.07.21-17.46.50:618][666]LogWindows: Error: [Callstack] 0x0000000049381B78 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.07.21-17.46.50:618][666]LogWindows: Error: [Callstack] 0x000000004939052C UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.07.21-17.46.50:618][666]LogWindows: Error: [Callstack] 0x000000004937D679 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.07.21-17.46.50:618][666]LogWindows: Error: [Callstack] 0x000000005ECE1C24 USER32.dll!UnknownFunction []
+[2018.07.21-17.46.50:618][666]LogWindows: Error: [Callstack] 0x000000005ECE156C USER32.dll!UnknownFunction []
+[2018.07.21-17.46.50:618][666]LogWindows: Error: [Callstack] 0x0000000049391666 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.07.21-17.46.50:618][666]LogWindows: Error: [Callstack] 0x00000000C39E5475 UE4Editor.exe!UnknownFunction []
+[2018.07.21-17.46.50:618][666]LogWindows: Error: [Callstack] 0x00000000C39F6BD0 UE4Editor.exe!UnknownFunction []
+[2018.07.21-17.46.50:618][666]LogWindows: Error: [Callstack] 0x00000000C39F6C4A UE4Editor.exe!UnknownFunction []
+[2018.07.21-17.46.50:618][666]LogWindows: Error: [Callstack] 0x00000000C3A04149 UE4Editor.exe!UnknownFunction []
+[2018.07.21-17.46.50:618][666]LogWindows: Error: [Callstack] 0x00000000C3A05B57 UE4Editor.exe!UnknownFunction []
+[2018.07.21-17.46.50:618][666]LogWindows: Error: [Callstack] 0x000000005CD68364 KERNEL32.DLL!UnknownFunction []
+[2018.07.21-17.46.50:618][666]LogWindows: Error: [Callstack] 0x000000005F6F5E91 ntdll.dll!UnknownFunction []
+[2018.07.21-17.46.50:618][666]LogWindows: Error: [Callstack] 0x000000005F6F5E91 ntdll.dll!UnknownFunction []
+[2018.07.21-17.46.50:618][666]LogWindows: Error: 
+[2018.07.21-17.46.50:635][666]LogExit: Executing StaticShutdownAfterError
+[2018.07.21-17.46.50:660][666]LogWindows: FPlatformMisc::RequestExit(1)
+[2018.07.21-17.46.50:660][666]Log file closed, 07/21/18 22:16:50
