@@ -1,4 +1,4 @@
-﻿Log file open, 07/24/18 09:15:10
+﻿Log file open, 07/26/18 15:01:36
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -7,12 +7,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: ProjectR
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-640493907) SRandInit(-640493907).
+LogInit: Display: RandInit(1194332410) SRandInit(1194332410).
 LogInit: Read version file with build ID '3944462'
 LogInit: Overriding engine version to CL 3989454, compatible CL 3944462
 LogInit: Registered custom module enumerator with build ID '3944462'
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 2.729848
+LogStats: Stats thread started at 2.506909
 LogD3D11RHI: Aftermath initialized
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +3:30, Platform Override: ''
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
@@ -172,7 +172,7 @@ LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
 LogPluginManager: Mounting plugin UnrealEnginePython
-LogStreaming: Display: Took  4.633s to configure plugins.
+LogStreaming: Display: Took  3.240s to configure plugins.
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -192,7 +192,7 @@ LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured
 LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
 LogInit:  - LocalHostAddr = Default
 LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-LogInit: WinSock: I am Hosein (192.168.1.6:0)
+LogInit: WinSock: I am Hosein (192.168.1.3:0)
 LogInit: Build: ++UE4+Release-4.19-CL-3989454
 LogInit: Engine Version: 4.19.1-3989454+++UE4+Release-4.19
 LogInit: Compatible Engine Version: 4.19.0-3944462+++UE4+Release-4.19
@@ -223,423 +223,690 @@ LogInit: Branch Name: ++UE4+Release-4.19
 LogInit: Command Line:  
 LogInit: Base Directory: h:/Unreal Engine/Epic Games/UE_4.19/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
-LogStreaming: Display: Took  0.021s to delete old logs.
+LogStreaming: Display: Took  0.022s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.07.24-04.45.15:085][  0]LogInit: Selected Device Profile: [Windows]
-[2018.07.24-04.45.15:085][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.07.24-04.45.15:164][  0]LogInit: Computer: HOSEIN
-[2018.07.24-04.45.15:164][  0]LogInit: User: Hosein
-[2018.07.24-04.45.15:164][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.07.24-04.45.15:164][  0]LogInit: High frequency timer resolution =3.914066 MHz
-[2018.07.24-04.45.15:165][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
-[2018.07.24-04.45.15:165][  0]LogMemory: Platform Memory Stats for Windows
-[2018.07.24-04.45.15:165][  0]LogMemory: Process Physical Memory: 274.89 MB used, 274.89 MB peak
-[2018.07.24-04.45.15:165][  0]LogMemory: Process Virtual Memory: 264.86 MB used, 264.86 MB peak
-[2018.07.24-04.45.15:165][  0]LogMemory: Physical Memory: 3730.18 MB used,  28968.53 MB free, 32698.71 MB total
-[2018.07.24-04.45.15:165][  0]LogMemory: Virtual Memory: 658.86 MB used,  28968.53 MB free, 134217728.00 MB total
-[2018.07.24-04.45.15:610][  0]LogInit: Using OS detected language (en-US).
-[2018.07.24-04.45.15:610][  0]LogInit: Using OS detected locale (en-US).
-[2018.07.24-04.45.15:771][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2018.07.24-04.45.16:318][  0]LogStreaming: Display: Took  0.694s to EndInitTextLocalization.
-[2018.07.24-04.45.16:346][  0]LogInit: Setting process to per monitor DPI aware
-[2018.07.24-04.45.16:832][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2018.07.24-04.45.16:832][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2018.07.24-04.45.18:210][  0]LogD3D11RHI: D3D11 adapters:
-[2018.07.24-04.45.18:246][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
-[2018.07.24-04.45.18:246][  0]LogD3D11RHI:       8100/0/16349 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2018.07.24-04.45.18:247][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.07.24-04.45.18:247][  0]LogD3D11RHI:       0/0/16349 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.07.24-04.45.18:247][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.07.24-04.45.18:298][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.07.24-04.45.18:300][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
-[2018.07.24-04.45.18:300][  0]LogWindows: EnumDisplayDevices:
-[2018.07.24-04.45.18:300][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
-[2018.07.24-04.45.18:300][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2018.07.24-04.45.18:300][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2018.07.24-04.45.18:300][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2018.07.24-04.45.18:300][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2018.07.24-04.45.18:300][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
-[2018.07.24-04.45.18:301][  0]LogD3D11RHI:   Driver Version: 388.59 (internal:23.21.13.8859, unified:388.59)
-[2018.07.24-04.45.18:301][  0]LogD3D11RHI:      Driver Date: 12-5-2017
-[2018.07.24-04.45.18:301][  0]LogRHI: Texture pool is 5670 MB (70% of 8100 MB)
-[2018.07.24-04.45.18:319][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
-[2018.07.24-04.45.18:319][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
-[2018.07.24-04.45.18:319][  0]LogD3D11RHI: Async texture creation enabled
-[2018.07.24-04.45.18:494][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2018.07.24-04.45.18:586][  0]LogShaderCompilers: Guid format shader working directory is 12 characters bigger than the processId version (../../../../../Workstation/ProjectR/Intermediate/Shaders/WorkingDirectory/8344/).
-[2018.07.24-04.45.18:588][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Hosein/AppData/Local/Temp/UnrealShaderWorkingDir/B349B9244806B3BEFD369DACD6A28E0F/'.
-[2018.07.24-04.45.19:425][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.07.24-04.45.19:433][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.07.24-04.45.19:442][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.07.24-04.45.19:451][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.07.24-04.45.19:502][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.07.24-04.45.19:510][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.07.24-04.45.19:519][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.07.24-04.45.19:528][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.07.24-04.45.19:532][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.07.24-04.45.19:540][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2018.07.24-04.45.19:548][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2018.07.24-04.45.19:556][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2018.07.24-04.45.19:564][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
-[2018.07.24-04.45.19:572][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2018.07.24-04.45.19:580][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2018.07.24-04.45.19:596][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2018.07.24-04.45.19:596][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.07.24-04.45.19:639][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.07.24-04.45.19:640][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.07.24-04.45.19:726][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.07.24-04.45.19:733][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.07.24-04.45.19:742][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.07.24-04.45.19:750][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.07.24-04.45.19:758][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.07.24-04.45.19:782][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.07.24-04.45.19:782][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.07.24-04.45.20:515][  0]LogXGEController: Cleaning working directory: C:/Users/Hosein/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2018.07.24-04.45.20:515][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2018.07.24-04.45.20:520][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2018.07.24-04.45.20:520][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.07.24-04.45.22:096][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.07.24-04.45.22:400][  0]LogDerivedDataCache: Loaded boot cache 0.30s 74MB C:/Users/Hosein/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
-[2018.07.24-04.45.22:400][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Hosein/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
-[2018.07.24-04.45.22:401][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Workstation/ProjectR/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.07.24-04.45.22:401][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.07.24-04.45.22:401][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Workstation/ProjectR/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.07.24-04.45.22:401][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.07.24-04.45.22:463][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.07.24-04.45.22:475][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Hosein/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.07.24-04.45.22:503][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.07.24-04.45.22:536][  0]LogSlate: Using Freetype 2.6.0
-[2018.07.24-04.45.22:617][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.07.24-04.45.22:617][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.07.24-04.45.27:125][  0]LogAssetRegistry: FAssetRegistry took 0.0267 seconds to start up
-[2018.07.24-04.45.29:468][  0]LogInit: Selected Device Profile: [Windows]
-[2018.07.24-04.45.30:478][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.07.24-04.45.30:501][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.07.24-04.45.30:508][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.07.24-04.45.30:508][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.07.24-04.45.30:508][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.07.24-04.45.30:508][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.07.24-04.45.30:781][  0]LogNetVersion: ProjectR , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 859984229)
-[2018.07.24-04.45.34:037][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 2 prioritized culture(s) in 0.125786 seconds
-[2018.07.24-04.45.34:060][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
-[2018.07.24-04.45.34:060][  0]LogUObjectAllocator: 7314312 out of 0 bytes used by permanent object pool.
-[2018.07.24-04.45.34:060][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.07.24-04.45.40:789][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.07.24-04.45.40:818][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.07.24-04.45.41:464][  0]SourceControl: Source control is disabled
-[2018.07.24-04.45.42:247][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.07.24-04.45.42:370][  0]LogOcInput: OculusInput pre-init called
-[2018.07.24-04.45.42:531][  0]LogPython: Python VM initialized: 3.6.2 (v3.6.2:5fd33b5, Jul  8 2017, 04:57:36) [MSC v.1900 64 bit (AMD64)]
-[2018.07.24-04.45.42:531][  0]LogPython: Python Scripts search path: H:\Unreal Engine\Epic Games\UE_4.19\Engine\Plugins\UnrealEnginePython
-[2018.07.24-04.45.43:293][  0]LogPython: ####################----------Python Integration for Megascans Initialized----------####################
-[2018.07.24-04.45.43:293][  0]LogPython: 
+[2018.07.26-10.31.40:340][  0]LogInit: Selected Device Profile: [Windows]
+[2018.07.26-10.31.40:340][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.07.26-10.31.40:428][  0]LogInit: Computer: HOSEIN
+[2018.07.26-10.31.40:428][  0]LogInit: User: Hosein
+[2018.07.26-10.31.40:428][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.07.26-10.31.40:428][  0]LogInit: High frequency timer resolution =3.914066 MHz
+[2018.07.26-10.31.40:428][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2018.07.26-10.31.40:428][  0]LogMemory: Platform Memory Stats for Windows
+[2018.07.26-10.31.40:428][  0]LogMemory: Process Physical Memory: 274.53 MB used, 274.53 MB peak
+[2018.07.26-10.31.40:428][  0]LogMemory: Process Virtual Memory: 264.80 MB used, 264.80 MB peak
+[2018.07.26-10.31.40:428][  0]LogMemory: Physical Memory: 3762.05 MB used,  28936.66 MB free, 32698.71 MB total
+[2018.07.26-10.31.40:428][  0]LogMemory: Virtual Memory: 658.86 MB used,  28936.66 MB free, 134217728.00 MB total
+[2018.07.26-10.31.40:848][  0]LogInit: Using OS detected language (en-US).
+[2018.07.26-10.31.40:848][  0]LogInit: Using OS detected locale (en-US).
+[2018.07.26-10.31.41:077][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.07.26-10.31.41:657][  0]LogStreaming: Display: Took  0.794s to EndInitTextLocalization.
+[2018.07.26-10.31.41:684][  0]LogInit: Setting process to per monitor DPI aware
+[2018.07.26-10.31.42:121][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.07.26-10.31.42:121][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.07.26-10.31.43:906][  0]LogD3D11RHI: D3D11 adapters:
+[2018.07.26-10.31.43:942][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2018.07.26-10.31.43:942][  0]LogD3D11RHI:       8100/0/16349 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.07.26-10.31.43:944][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.07.26-10.31.43:944][  0]LogD3D11RHI:       0/0/16349 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.07.26-10.31.43:944][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.07.26-10.31.43:971][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.07.26-10.31.43:972][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2018.07.26-10.31.43:972][  0]LogWindows: EnumDisplayDevices:
+[2018.07.26-10.31.43:973][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2018.07.26-10.31.43:973][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.07.26-10.31.43:973][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.07.26-10.31.43:973][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.07.26-10.31.43:973][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2018.07.26-10.31.43:973][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2018.07.26-10.31.43:973][  0]LogD3D11RHI:   Driver Version: 388.59 (internal:23.21.13.8859, unified:388.59)
+[2018.07.26-10.31.43:973][  0]LogD3D11RHI:      Driver Date: 12-5-2017
+[2018.07.26-10.31.43:973][  0]LogRHI: Texture pool is 5670 MB (70% of 8100 MB)
+[2018.07.26-10.31.43:996][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.07.26-10.31.43:996][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.07.26-10.31.43:996][  0]LogD3D11RHI: Async texture creation enabled
+[2018.07.26-10.31.44:183][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.07.26-10.31.44:275][  0]LogShaderCompilers: Guid format shader working directory is 11 characters bigger than the processId version (../../../../../Workstation/ProjectR/Intermediate/Shaders/WorkingDirectory/13516/).
+[2018.07.26-10.31.44:285][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Hosein/AppData/Local/Temp/UnrealShaderWorkingDir/F1714DB44EFCAB739056D9A30C318FE4/'.
+[2018.07.26-10.31.45:280][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.07.26-10.31.45:289][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.07.26-10.31.45:298][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.07.26-10.31.45:307][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.07.26-10.31.45:357][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.07.26-10.31.45:366][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.07.26-10.31.45:375][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.07.26-10.31.45:384][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.07.26-10.31.45:388][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.07.26-10.31.45:396][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.07.26-10.31.45:404][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.07.26-10.31.45:413][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.07.26-10.31.45:421][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
+[2018.07.26-10.31.45:429][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.07.26-10.31.45:437][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.07.26-10.31.45:454][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.07.26-10.31.45:454][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.07.26-10.31.45:495][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.07.26-10.31.45:495][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.07.26-10.31.45:581][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.07.26-10.31.45:588][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.07.26-10.31.45:596][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.07.26-10.31.45:604][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.07.26-10.31.45:613][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.07.26-10.31.45:646][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.07.26-10.31.45:646][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.07.26-10.31.46:502][  0]LogXGEController: Cleaning working directory: C:/Users/Hosein/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.07.26-10.31.46:502][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.07.26-10.31.46:509][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.07.26-10.31.46:509][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.07.26-10.31.48:174][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.07.26-10.31.48:476][  0]LogDerivedDataCache: Loaded boot cache 0.30s 74MB C:/Users/Hosein/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.07.26-10.31.48:476][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Hosein/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
+[2018.07.26-10.31.48:476][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Workstation/ProjectR/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.07.26-10.31.48:476][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.07.26-10.31.48:476][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Workstation/ProjectR/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.07.26-10.31.48:476][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.07.26-10.31.48:533][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.07.26-10.31.48:546][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Hosein/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.07.26-10.31.48:575][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.07.26-10.31.48:608][  0]LogSlate: Using Freetype 2.6.0
+[2018.07.26-10.31.48:697][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.07.26-10.31.48:697][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.07.26-10.31.53:188][  0]LogAssetRegistry: FAssetRegistry took 0.0269 seconds to start up
+[2018.07.26-10.31.56:343][  0]LogInit: Selected Device Profile: [Windows]
+[2018.07.26-10.31.57:607][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.07.26-10.31.57:630][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.07.26-10.31.57:637][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.07.26-10.31.57:637][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.07.26-10.31.57:638][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.07.26-10.31.57:638][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.07.26-10.31.57:878][  0]LogNetVersion: ProjectR , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 859984229)
+[2018.07.26-10.32.00:788][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 2 prioritized culture(s) in 0.146657 seconds
+[2018.07.26-10.32.00:807][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
+[2018.07.26-10.32.00:807][  0]LogUObjectAllocator: 7314312 out of 0 bytes used by permanent object pool.
+[2018.07.26-10.32.00:807][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.07.26-10.32.07:703][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.07.26-10.32.07:731][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.07.26-10.32.08:369][  0]SourceControl: Source control is disabled
+[2018.07.26-10.32.09:787][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.07.26-10.32.09:920][  0]LogOcInput: OculusInput pre-init called
+[2018.07.26-10.32.10:145][  0]LogPython: Python VM initialized: 3.6.2 (v3.6.2:5fd33b5, Jul  8 2017, 04:57:36) [MSC v.1900 64 bit (AMD64)]
+[2018.07.26-10.32.10:145][  0]LogPython: Python Scripts search path: H:\Unreal Engine\Epic Games\UE_4.19\Engine\Plugins\UnrealEnginePython
+[2018.07.26-10.32.11:059][  0]LogPython: ####################----------Python Integration for Megascans Initialized----------####################
+[2018.07.26-10.32.11:059][  0]LogPython: 
 
-[2018.07.24-04.45.43:293][  0]LogPython: H:\\Unreal Engine\\Epic Games\\UE_4.19\\Engine\\Plugins\\UnrealEnginePython/
-[2018.07.24-04.45.43:293][  0]LogPython: 
+[2018.07.26-10.32.11:059][  0]LogPython: H:\\Unreal Engine\\Epic Games\\UE_4.19\\Engine\\Plugins\\UnrealEnginePython/
+[2018.07.26-10.32.11:059][  0]LogPython: 
 
-[2018.07.24-04.45.44:260][  0]LogPython: Megascans Integration - LiveLink Initialized...
-[2018.07.24-04.45.44:260][  0]LogPython: 
+[2018.07.26-10.32.12:000][  0]LogPython: Megascans Integration - LiveLink Initialized...
+[2018.07.26-10.32.12:000][  0]LogPython: 
 
-[2018.07.24-04.45.44:279][  0]LogPython: ue_site Python module successfully imported
-[2018.07.24-04.45.44:661][  0]LogEngine: Initializing Engine...
-[2018.07.24-04.45.44:675][  0]LogHMD: Failed to initialize OpenVR with code 101
-[2018.07.24-04.45.44:694][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.07.24-04.45.44:694][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.07.24-04.45.45:422][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.07.24-04.45.45:484][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.07.24-04.45.45:507][  0]LogInit: FAudioDevice initialized.
-[2018.07.24-04.45.45:629][  0]LogDerivedDataCache: Saved boot cache 0.12s 74MB C:/Users/Hosein/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
-[2018.07.24-04.45.45:637][  0]LogInit: Texture streaming: Enabled
-[2018.07.24-04.45.45:710][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.07.24-04.45.45:780][  0]LogInit: Transaction tracking system initialized
-[2018.07.24-04.45.45:983][  0]BlueprintLog: New page: Editor Load
-[2018.07.24-04.45.46:662][  0]LocalizationService: Localization service is disabled
-[2018.07.24-04.45.47:321][  0]LogConsoleResponse: Display: 
-[2018.07.24-04.45.49:043][  0]LogFileCache: Scanning file cache for directory 'h:/Unreal Engine/Workstation/ProjectR/Content/' took 0.02s
-[2018.07.24-04.45.49:043][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.07.24-04.45.49:043][  0]LogCook: Display: Mobile HDR setting 1
-[2018.07.24-04.45.49:043][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.07.24-04.45.49:044][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.07.24-04.45.49:044][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.07.24-04.45.50:143][  0]Cmd: MAP LOAD FILE="../../../../../Workstation/ProjectR/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.07.24-04.45.50:226][  0]LightingResults: New page: Lighting Build
-[2018.07.24-04.45.50:311][  0]MapCheck: New page: Map Check
-[2018.07.24-04.45.50:311][  0]LightingResults: New page: Lighting Build
-[2018.07.24-04.45.52:889][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [20.885187ms] /Game/Mannequin/Character/Mesh/SK_Mannequin.SK_Mannequin
-[2018.07.24-04.45.52:992][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2018.07.24-04.45.53:410][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.07.24-04.45.53:477][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.07.24-04.45.53:501][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 23.794ms to complete.
-[2018.07.24-04.45.53:501][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 3.377
-[2018.07.24-04.45.54:746][  0]LogCollectionManager: Loaded 0 collections in 0.001024 seconds
-[2018.07.24-04.45.54:824][  0]LogFileCache: Scanning file cache for directory 'h:/Unreal Engine/Workstation/ProjectR/Saved/Collections/' took 0.01s
-[2018.07.24-04.45.54:824][  0]LogFileCache: Scanning file cache for directory 'h:/Unreal Engine/Workstation/ProjectR/Content/Developers/Hosein/Collections/' took 0.01s
-[2018.07.24-04.45.54:824][  0]LogFileCache: Scanning file cache for directory 'h:/Unreal Engine/Workstation/ProjectR/Content/Collections/' took 0.01s
-[2018.07.24-04.45.54:824][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2018.07.24-04.45.54:839][  0]LogContentBrowser: Native class hierarchy populated in 0.0143 seconds. Added 2474 classes and 570 folders.
-[2018.07.24-04.45.54:893][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2018.07.24-04.45.55:554][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2018.07.24-04.45.55:624][  0]LogSlate: Took 0.021444 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.07.24-04.45.55:682][  0]LogSlate: Took 0.037180 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.07.24-04.45.56:013][  0]LogRenderer: Reallocating scene render targets to support 1192x920 Format 10 NumSamples 1 (Frame:1).
-[2018.07.24-04.45.56:325][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2018.07.24-04.45.56:325][  0]LogLoad: (Engine Initialization) Total time: 58.20 seconds
-[2018.07.24-04.45.56:325][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.07.24-04.45.56:733][  0]LogContentStreaming: Texture pool size now 3000 MB
-[2018.07.24-04.45.57:010][  1]LogAssetRegistry: Asset discovery search completed in 29.9076 seconds
-[2018.07.24-04.45.57:011][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2018.07.24-04.45.57:011][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000032 seconds (updated 0 objects)
-[2018.07.24-04.45.57:684][  3]LogSlate: Took 0.017695 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.07.24-04.46.01:103][315]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.07.24-04.46.01:861][401]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.07.24-04.46.01:869][401]LogSlate: Took 0.007623 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.07.24-04.46.01:922][401]LogSlate: Took 0.000092 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.07.24-04.46.11:167][422]LogSlate: Window 'Python Editor' being destroyed
-[2018.07.24-04.46.11:170][422]LogSlate: Window 'Python Editor' being destroyed
-[2018.07.24-04.46.16:630][847]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.ProjectR
-[2018.07.24-04.46.16:630][847]LogTemp: CWD: h:\Unreal Engine\Epic Games\UE_4.19\Engine\Binaries\DotNET\IOS
-[2018.07.24-04.46.16:630][847]LogTemp: Initial Dir: h:\Unreal Engine\Epic Games\UE_4.19
-[2018.07.24-04.46.16:630][847]LogTemp: Env CWD: h:\Unreal Engine\Epic Games\UE_4.19\Engine\Binaries\DotNET\IOS
-[2018.07.24-04.46.16:630][847]LogTemp: BranchPath = HOSEIN/h/Unreal Engine/Epic Games/UE_4.19/Engine/Binaries --- GameBranchPath = HOSEIN/h/Unreal Engine/Epic Games/UE_4.19/Engine/Binaries
-[2018.07.24-04.46.16:630][847]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Hosein\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
-[2018.07.24-04.46.16:630][847]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
-[2018.07.24-04.46.26:105][927]SourceControl: fatal: /Script: '/Script' is outside repository
-[2018.07.24-04.46.30:220][416]LogSlate: Window 'Project Settings' being destroyed
-[2018.07.24-04.46.30:222][416]LogSlate: Window 'Project Settings' being destroyed
-[2018.07.24-04.46.38:996][770]LogAIModule: Creating AISystem for world ProjectR_MainHall
-[2018.07.24-04.46.39:038][770]Cmd: MAP LOAD FILE="../../../../../Workstation/ProjectR/Content/ProjectR_MainHall.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.07.24-04.46.39:038][770]LightingResults: New page: Lighting Build
-[2018.07.24-04.46.39:038][770]LoadErrors: New page: Loading map: ProjectR_MainHall.umap
-[2018.07.24-04.46.39:072][770]MapCheck: New page: Map Check
-[2018.07.24-04.46.39:073][770]LightingResults: New page: Lighting Build
-[2018.07.24-04.46.39:259][770]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.07.24-04.46.39:305][770]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.07.24-04.46.39:337][770]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 32.66ms to complete.
-[2018.07.24-04.46.39:338][770]LogFileHelpers: Loading map 'ProjectR_MainHall' took 0.300
-[2018.07.24-04.46.48:026][778]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (TriggerBox)
-[2018.07.24-04.46.50:033][990]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.07.24-04.46.54:504][502]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.07.24-04.46.54:988][502]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0004 seconds. Added 116 classes and 0 folders.
-[2018.07.24-04.46.55:641][502]LogSlate: Took 0.023333 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2018.07.24-04.46.57:045][644]LogSlate: Window 'ProjectR_MainHall - Level Blueprint Editor' being destroyed
-[2018.07.24-04.46.58:061][759]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.07.24-04.47.16:875][975]LogSlate: Took 0.016805 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2018.07.24-04.47.30:648][544]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (ProjectR_PointofInterest)
-[2018.07.24-04.47.35:008][ 40]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.07.24-04.47.58:362][765]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.07.24-04.48.27:310][190]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ProjectR_PointofInterest2)
-[2018.07.24-04.48.29:079][393]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.07.24-04.48.41:816][919]LogHttp: Warning: 00000210F6115600: request failed, libcurl error: 7 (Couldn't connect to server)
-[2018.07.24-04.48.41:816][919]LogHttp: Warning: 00000210F6115600: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x210f59e3fe8 [can pipeline])
-[2018.07.24-04.48.41:816][919]LogHttp: Warning: 00000210F6115600: libcurl info message cache 1 (Re-using existing connection! (#0) with host datarouter.ol.epicgames.com)
-[2018.07.24-04.48.41:816][919]LogHttp: Warning: 00000210F6115600: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (35.169.42.52) port 443 (#0))
-[2018.07.24-04.48.41:816][919]LogHttp: Warning: 00000210F6115600: libcurl info message cache 3 (upload completely sent off: 1215 out of 1215 bytes)
-[2018.07.24-04.48.41:816][919]LogHttp: Warning: 00000210F6115600: libcurl info message cache 4 (SSL read: error:00000000:lib(0):func(0):reason(0), errno 10054)
-[2018.07.24-04.48.41:816][919]LogHttp: Warning: 00000210F6115600: libcurl info message cache 5 (Connection died, retrying a fresh connect)
-[2018.07.24-04.48.41:816][919]LogHttp: Warning: 00000210F6115600: libcurl info message cache 6 (Closing connection 0)
-[2018.07.24-04.48.41:816][919]LogHttp: Warning: 00000210F6115600: libcurl info message cache 7 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B31B53B57-4368-B34D-0B57-01B98A698D65%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.19.1-3989454%2B%2B%2BUE4%2BRelease-4.19&UserID=8f4d5c1c4eafcac68c351ba8404bab02%7C4d7499ea85c448a6913f6e898ee54099%7C2f2398f0-bd0a-4231-848c-fc7a92319f55&AppEnvironment=datacollector-binary&UploadType=eteventstream')
-[2018.07.24-04.48.41:816][919]LogHttp: Warning: 00000210F6115600: libcurl info message cache 8 (  Trying 10.0.0.1...)
-[2018.07.24-04.48.41:816][919]LogHttp: Warning: 00000210F6115600: libcurl info message cache 9 (connect to 10.0.0.1 port 443 failed: Timed out)
-[2018.07.24-04.48.41:816][919]LogHttp: Warning: 00000210F6115600: libcurl info message cache 10 (Failed to connect to datarouter.ol.epicgames.com port 443: Timed out)
-[2018.07.24-04.48.41:816][919]LogHttp: Warning: 00000210F6115600: libcurl info message cache 11 (Closing connection 1)
-[2018.07.24-04.49.28:270][438]LogEditorViewport: Clicking on Actor (LMB): TargetPoint (TargetPoint)
-[2018.07.24-04.49.29:118][536]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.07.24-04.49.42:345][ 97]BlueprintLog: New page: Compile ProjectR_MainHall
-[2018.07.24-04.49.45:464][435]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape1)
-[2018.07.24-04.49.45:547][435]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.07.24-04.49.46:523][547]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel' has LevelScriptBlueprint '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall' with GeneratedClass '/Game/ProjectR_MainHall.ProjectR_MainHall_C' with ClassGeneratedBy '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall'
-[2018.07.24-04.49.46:523][547]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.07.24-04.49.46:536][547]PIE: New page: PIE session: ProjectR_MainHall (Jul 24, 2018, 1:49:46 PM)
-[2018.07.24-04.49.46:536][547]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_ProjectR_MainHall
-[2018.07.24-04.49.46:577][547]LogPlayLevel: PIE: StaticDuplicateObject took: (0.041466s)
-[2018.07.24-04.49.46:577][547]LogAIModule: Creating AISystem for world ProjectR_MainHall
-[2018.07.24-04.49.46:578][547]LogPlayLevel: PIE: World Init took: (0.000431s)
-[2018.07.24-04.49.46:578][547]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ProjectR_MainHall.ProjectR_MainHall to /Game/UEDPIE_0_ProjectR_MainHall.ProjectR_MainHall (0.042048s)
-[2018.07.24-04.49.46:594][547]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.07.24-04.49.46:608][547]LogInit: FAudioDevice initialized.
-[2018.07.24-04.49.46:608][547]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.07.24-04.49.46:651][547]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2018.07.24-04.49.46:669][547]LogWorld: Bringing World /Game/UEDPIE_0_ProjectR_MainHall.ProjectR_MainHall up for play (max tick rate 0) at 2018.07.24-09.19.46
-[2018.07.24-04.49.46:670][547]LogWorld: Bringing up level for play took: 0.006255
-[2018.07.24-04.49.46:742][547]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0002 seconds. Added 11 classes and 0 folders.
-[2018.07.24-04.49.46:768][547]PIE: Play in editor start time for /Game/UEDPIE_0_ProjectR_MainHall -0.196
-[2018.07.24-04.49.46:768][547]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel' has LevelScriptBlueprint '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall' with GeneratedClass '/Game/ProjectR_MainHall.ProjectR_MainHall_C' with ClassGeneratedBy '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall'
-[2018.07.24-04.49.52:292][204]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel' has LevelScriptBlueprint '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall' with GeneratedClass '/Game/ProjectR_MainHall.ProjectR_MainHall_C' with ClassGeneratedBy '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall'
-[2018.07.24-04.49.52:323][204]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel' has LevelScriptBlueprint '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall' with GeneratedClass '/Game/ProjectR_MainHall.ProjectR_MainHall_C' with ClassGeneratedBy '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall'
-[2018.07.24-04.49.53:079][291]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.07.24-04.50.17:771][225]BlueprintLog: New page: Compile ProjectR_MainHall
-[2018.07.24-04.50.18:708][327]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape1)
-[2018.07.24-04.50.18:734][327]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.07.24-04.50.19:605][429]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape1)
-[2018.07.24-04.50.19:622][429]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.07.24-04.50.20:821][572]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel' has LevelScriptBlueprint '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall' with GeneratedClass '/Game/ProjectR_MainHall.ProjectR_MainHall_C' with ClassGeneratedBy '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall'
-[2018.07.24-04.50.20:821][572]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.07.24-04.50.20:821][572]PIE: New page: PIE session: ProjectR_MainHall (Jul 24, 2018, 1:50:20 PM)
-[2018.07.24-04.50.20:821][572]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_ProjectR_MainHall
-[2018.07.24-04.50.20:841][572]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019880s)
-[2018.07.24-04.50.20:841][572]LogAIModule: Creating AISystem for world ProjectR_MainHall
-[2018.07.24-04.50.20:842][572]LogPlayLevel: PIE: World Init took: (0.000455s)
-[2018.07.24-04.50.20:842][572]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ProjectR_MainHall.ProjectR_MainHall to /Game/UEDPIE_0_ProjectR_MainHall.ProjectR_MainHall (0.020458s)
-[2018.07.24-04.50.20:858][572]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.07.24-04.50.20:872][572]LogInit: FAudioDevice initialized.
-[2018.07.24-04.50.20:872][572]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.07.24-04.50.20:900][572]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2018.07.24-04.50.20:907][572]LogWorld: Bringing World /Game/UEDPIE_0_ProjectR_MainHall.ProjectR_MainHall up for play (max tick rate 0) at 2018.07.24-09.20.20
-[2018.07.24-04.50.20:907][572]LogWorld: Bringing up level for play took: 0.005722
-[2018.07.24-04.50.20:909][572]PIE: Play in editor start time for /Game/UEDPIE_0_ProjectR_MainHall -0.055
-[2018.07.24-04.50.20:909][572]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel' has LevelScriptBlueprint '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall' with GeneratedClass '/Game/ProjectR_MainHall.ProjectR_MainHall_C' with ClassGeneratedBy '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall'
-[2018.07.24-04.50.25:621][135]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel' has LevelScriptBlueprint '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall' with GeneratedClass '/Game/ProjectR_MainHall.ProjectR_MainHall_C' with ClassGeneratedBy '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall'
-[2018.07.24-04.50.25:656][135]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel' has LevelScriptBlueprint '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall' with GeneratedClass '/Game/ProjectR_MainHall.ProjectR_MainHall_C' with ClassGeneratedBy '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall'
-[2018.07.24-04.50.26:687][255]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.07.24-04.50.31:838][871]BlueprintLog: New page: Compile ProjectR_MainHall
-[2018.07.24-04.50.36:152][368]LogEditorViewport: Clicking on Actor (LMB): TargetPoint (TargetPoint)
-[2018.07.24-04.50.37:707][550]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.07.24-04.51.02:857][545]LogHttp: Warning: 000002110123C580: request failed, libcurl error: 7 (Couldn't connect to server)
-[2018.07.24-04.51.02:857][545]LogHttp: Warning: 000002110123C580: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
-[2018.07.24-04.51.02:857][545]LogHttp: Warning: 000002110123C580: libcurl info message cache 1 (  Trying 10.0.0.1...)
-[2018.07.24-04.51.02:857][545]LogHttp: Warning: 000002110123C580: libcurl info message cache 2 (connect to 10.0.0.1 port 443 failed: Timed out)
-[2018.07.24-04.51.02:857][545]LogHttp: Warning: 000002110123C580: libcurl info message cache 3 (Failed to connect to datarouter.ol.epicgames.com port 443: Timed out)
-[2018.07.24-04.51.02:857][545]LogHttp: Warning: 000002110123C580: libcurl info message cache 4 (Closing connection 2)
-[2018.07.24-04.51.26:573][368]BlueprintLog: New page: Compile ProjectR_MainHall
-[2018.07.24-04.51.31:095][881]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape1)
-[2018.07.24-04.51.31:123][881]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.07.24-04.51.31:744][952]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel' has LevelScriptBlueprint '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall' with GeneratedClass '/Game/ProjectR_MainHall.ProjectR_MainHall_C' with ClassGeneratedBy '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall'
-[2018.07.24-04.51.31:744][952]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.07.24-04.51.31:744][952]PIE: New page: PIE session: ProjectR_MainHall (Jul 24, 2018, 1:51:31 PM)
-[2018.07.24-04.51.31:744][952]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_ProjectR_MainHall
-[2018.07.24-04.51.31:763][952]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019046s)
-[2018.07.24-04.51.31:763][952]LogAIModule: Creating AISystem for world ProjectR_MainHall
-[2018.07.24-04.51.31:763][952]LogPlayLevel: PIE: World Init took: (0.000422s)
-[2018.07.24-04.51.31:763][952]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ProjectR_MainHall.ProjectR_MainHall to /Game/UEDPIE_0_ProjectR_MainHall.ProjectR_MainHall (0.019591s)
-[2018.07.24-04.51.31:780][952]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.07.24-04.51.31:793][952]LogInit: FAudioDevice initialized.
-[2018.07.24-04.51.31:794][952]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.07.24-04.51.31:824][952]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2018.07.24-04.51.31:830][952]LogWorld: Bringing World /Game/UEDPIE_0_ProjectR_MainHall.ProjectR_MainHall up for play (max tick rate 0) at 2018.07.24-09.21.31
-[2018.07.24-04.51.31:831][952]LogWorld: Bringing up level for play took: 0.005483
-[2018.07.24-04.51.31:832][952]PIE: Play in editor start time for /Game/UEDPIE_0_ProjectR_MainHall 0.868
-[2018.07.24-04.51.31:832][952]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel' has LevelScriptBlueprint '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall' with GeneratedClass '/Game/ProjectR_MainHall.ProjectR_MainHall_C' with ClassGeneratedBy '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall'
-[2018.07.24-04.51.39:344][851]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel' has LevelScriptBlueprint '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall' with GeneratedClass '/Game/ProjectR_MainHall.ProjectR_MainHall_C' with ClassGeneratedBy '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall'
-[2018.07.24-04.51.39:381][851]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel' has LevelScriptBlueprint '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall' with GeneratedClass '/Game/ProjectR_MainHall.ProjectR_MainHall_C' with ClassGeneratedBy '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall'
-[2018.07.24-04.51.45:649][591]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.07.24-04.52.22:048][930]BlueprintLog: New page: Compile ProjectR_MainHall
-[2018.07.24-04.52.22:683][997]LogTemp: Repeating last play command: Selected Viewport
-[2018.07.24-04.52.22:699][997]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel' has LevelScriptBlueprint '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall' with GeneratedClass '/Game/ProjectR_MainHall.ProjectR_MainHall_C' with ClassGeneratedBy '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall'
-[2018.07.24-04.52.22:699][997]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.07.24-04.52.22:700][997]PIE: New page: PIE session: ProjectR_MainHall (Jul 24, 2018, 1:52:22 PM)
-[2018.07.24-04.52.22:700][997]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_ProjectR_MainHall
-[2018.07.24-04.52.22:719][997]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019363s)
-[2018.07.24-04.52.22:719][997]LogAIModule: Creating AISystem for world ProjectR_MainHall
-[2018.07.24-04.52.22:719][997]LogPlayLevel: PIE: World Init took: (0.000411s)
-[2018.07.24-04.52.22:719][997]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ProjectR_MainHall.ProjectR_MainHall to /Game/UEDPIE_0_ProjectR_MainHall.ProjectR_MainHall (0.019899s)
-[2018.07.24-04.52.22:736][997]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.07.24-04.52.22:750][997]LogInit: FAudioDevice initialized.
-[2018.07.24-04.52.22:799][997]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2018.07.24-04.52.22:806][997]LogWorld: Bringing World /Game/UEDPIE_0_ProjectR_MainHall.ProjectR_MainHall up for play (max tick rate 0) at 2018.07.24-09.22.22
-[2018.07.24-04.52.22:806][997]LogWorld: Bringing up level for play took: 0.005823
-[2018.07.24-04.52.22:809][997]PIE: Play in editor start time for /Game/UEDPIE_0_ProjectR_MainHall -0.156
-[2018.07.24-04.52.22:809][997]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel' has LevelScriptBlueprint '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall' with GeneratedClass '/Game/ProjectR_MainHall.ProjectR_MainHall_C' with ClassGeneratedBy '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall'
-[2018.07.24-04.52.22:839][997]LogRenderer: Reallocating scene render targets to support 1292x920 Format 10 NumSamples 1 (Frame:1).
-[2018.07.24-04.52.24:453][181]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel' has LevelScriptBlueprint '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall' with GeneratedClass '/Game/ProjectR_MainHall.ProjectR_MainHall_C' with ClassGeneratedBy '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall'
-[2018.07.24-04.52.24:464][181]LogSlate: Window 'ProjectR Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2018.07.24-04.52.24:496][181]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel' has LevelScriptBlueprint '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall' with GeneratedClass '/Game/ProjectR_MainHall.ProjectR_MainHall_C' with ClassGeneratedBy '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall'
-[2018.07.24-04.52.27:176][499]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape1)
-[2018.07.24-04.52.27:202][499]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.07.24-04.52.27:896][579]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel' has LevelScriptBlueprint '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall' with GeneratedClass '/Game/ProjectR_MainHall.ProjectR_MainHall_C' with ClassGeneratedBy '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall'
-[2018.07.24-04.52.27:896][579]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.07.24-04.52.27:896][579]PIE: New page: PIE session: ProjectR_MainHall (Jul 24, 2018, 1:52:27 PM)
-[2018.07.24-04.52.27:896][579]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_ProjectR_MainHall
-[2018.07.24-04.52.27:916][579]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019708s)
-[2018.07.24-04.52.27:916][579]LogAIModule: Creating AISystem for world ProjectR_MainHall
-[2018.07.24-04.52.27:916][579]LogPlayLevel: PIE: World Init took: (0.000421s)
-[2018.07.24-04.52.27:916][579]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ProjectR_MainHall.ProjectR_MainHall to /Game/UEDPIE_0_ProjectR_MainHall.ProjectR_MainHall (0.020266s)
-[2018.07.24-04.52.27:933][579]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.07.24-04.52.27:947][579]LogInit: FAudioDevice initialized.
-[2018.07.24-04.52.27:947][579]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.07.24-04.52.27:978][579]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2018.07.24-04.52.27:983][579]LogWorld: Bringing World /Game/UEDPIE_0_ProjectR_MainHall.ProjectR_MainHall up for play (max tick rate 0) at 2018.07.24-09.22.27
-[2018.07.24-04.52.27:984][579]LogWorld: Bringing up level for play took: 0.005321
-[2018.07.24-04.52.27:985][579]PIE: Play in editor start time for /Game/UEDPIE_0_ProjectR_MainHall 1.021
-[2018.07.24-04.52.27:985][579]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel' has LevelScriptBlueprint '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall' with GeneratedClass '/Game/ProjectR_MainHall.ProjectR_MainHall_C' with ClassGeneratedBy '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall'
-[2018.07.24-04.52.33:389][222]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel' has LevelScriptBlueprint '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall' with GeneratedClass '/Game/ProjectR_MainHall.ProjectR_MainHall_C' with ClassGeneratedBy '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall'
-[2018.07.24-04.52.33:425][222]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel' has LevelScriptBlueprint '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall' with GeneratedClass '/Game/ProjectR_MainHall.ProjectR_MainHall_C' with ClassGeneratedBy '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall'
-[2018.07.24-04.52.38:725][848]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.07.24-04.52.38:756][848]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.07.24-04.52.38:806][848]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ProjectR_MainHall" FILE="../../../../../Workstation/ProjectR/Content/ProjectR_MainHall.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2018.07.24-04.52.39:265][848]LogSavePackage: Save=364.00ms
-[2018.07.24-04.52.39:265][848]LogSavePackage: Moving '../../../../../Workstation/ProjectR/Saved/ProjectR_MainHallB48576BC4CBC05BAF5D30AB1FCE7CA3E.tmp' to '../../../../../Workstation/ProjectR/Content/ProjectR_MainHall.umap'
-[2018.07.24-04.52.39:269][848]LogSavePackage: Display: Finished SavePackage ../../../../../Workstation/ProjectR/Content/ProjectR_MainHall.umap
-[2018.07.24-04.52.39:289][848]LogFileHelpers: Saving map 'ProjectR_MainHall' took 0.529
-[2018.07.24-04.52.39:799][894]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.07.24-04.52.49:039][  2]BlueprintLog: New page: Compile ProjectR_MainHall
-[2018.07.24-04.53.11:822][ 80]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.07.24-04.53.14:841][433]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.07.24-04.53.14:867][433]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.07.24-04.53.14:903][433]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ProjectR_MainHall" FILE="../../../../../Workstation/ProjectR/Content/ProjectR_MainHall.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2018.07.24-04.53.15:252][433]LogSavePackage: Save=332.26ms
-[2018.07.24-04.53.15:252][433]LogSavePackage: Moving '../../../../../Workstation/ProjectR/Saved/ProjectR_MainHall6C80C3FD41045DB2F40E08968422FC1E.tmp' to '../../../../../Workstation/ProjectR/Content/ProjectR_MainHall.umap'
-[2018.07.24-04.53.15:253][433]LogSavePackage: Display: Finished SavePackage ../../../../../Workstation/ProjectR/Content/ProjectR_MainHall.umap
-[2018.07.24-04.53.15:271][433]LogFileHelpers: Saving map 'ProjectR_MainHall' took 0.402
-[2018.07.24-04.53.16:173][541]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.07.24-04.53.17:289][675]SourceControl: fatal: h:/Unreal Engine/Epic Games/UE_4.19/Engine/Content: 'h:/Unreal Engine/Epic Games/UE_4.19/Engine/Content' is outside repository
-[2018.07.24-04.53.17:367][675]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.07.24-04.53.27:662][675]LogSlate: Window 'Submit Files' being destroyed
-[2018.07.24-04.53.27:674][675]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.07.24-04.53.27:755][675]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.07.24-04.53.28:320][675]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.07.24-04.53.31:411][675]LogSourceControl: commit successful: [master 2c42f92] 1
-[2018.07.24-04.53.31:485][675]SourceControl: [master 2c42f92] 1
-[2018.07.24-04.53.31:485][675]SourceControl:  12 files changed, 44 insertions(+), 2 deletions(-)
-[2018.07.24-04.53.31:485][675]SourceControl:  create mode 100644 Content/Import/House/ProjectR_House1.uasset
-[2018.07.24-04.53.31:485][675]SourceControl:  create mode 100644 Content/Import/House/ProjectR_House2.uasset
-[2018.07.24-04.53.31:485][675]SourceControl:  create mode 100644 Content/Import/House/ProjectR_House3.uasset
-[2018.07.24-04.53.31:485][675]SourceControl:  create mode 100644 Content/Import/House/ProjectR_PointofInterest.uasset
-[2018.07.24-04.53.31:485][675]SourceControl:  create mode 100644 Content/Import/House/lambert1.uasset
-[2018.07.24-04.53.31:485][675]SourceControl:  create mode 100644 Content/Import/House/lambert2.uasset
-[2018.07.24-04.53.31:485][675]SourceControl:  create mode 100644 Content/Import/House/lambert3.uasset
-[2018.07.24-04.53.31:485][675]SourceControl:  create mode 100644 Content/Import/House/lambert4.uasset
-[2018.07.24-04.53.31:485][675]SourceControl:  rewrite Content/Import/MainHallFront/ProjectR_MainHallFront_pCube15.uasset (94%)
-[2018.07.24-04.53.31:487][675]SourceControl: Commited [master 2c42f92] 1.
-[2018.07.24-04.53.31:492][676]LogHttp: Warning: 0000021088624100: request failed, libcurl error: 7 (Couldn't connect to server)
-[2018.07.24-04.53.31:492][676]LogHttp: Warning: 0000021088624100: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
-[2018.07.24-04.53.31:492][676]LogHttp: Warning: 0000021088624100: libcurl info message cache 1 (  Trying 10.0.0.1...)
-[2018.07.24-04.53.31:492][676]LogHttp: Warning: 0000021088624100: libcurl info message cache 2 (connect to 10.0.0.1 port 443 failed: Timed out)
-[2018.07.24-04.53.31:492][676]LogHttp: Warning: 0000021088624100: libcurl info message cache 3 (Failed to connect to datarouter.ol.epicgames.com port 443: Timed out)
-[2018.07.24-04.53.31:492][676]LogHttp: Warning: 0000021088624100: libcurl info message cache 4 (Closing connection 3)
-[2018.07.24-04.55.53:107][997]LogHttp: Warning: 00000210DDEE2F80: request failed, libcurl error: 7 (Couldn't connect to server)
-[2018.07.24-04.55.53:107][997]LogHttp: Warning: 00000210DDEE2F80: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
-[2018.07.24-04.55.53:107][997]LogHttp: Warning: 00000210DDEE2F80: libcurl info message cache 1 (  Trying 10.0.0.1...)
-[2018.07.24-04.55.53:107][997]LogHttp: Warning: 00000210DDEE2F80: libcurl info message cache 2 (connect to 10.0.0.1 port 443 failed: Timed out)
-[2018.07.24-04.55.53:107][997]LogHttp: Warning: 00000210DDEE2F80: libcurl info message cache 3 (Failed to connect to datarouter.ol.epicgames.com port 443: Timed out)
-[2018.07.24-04.55.53:107][997]LogHttp: Warning: 00000210DDEE2F80: libcurl info message cache 4 (Closing connection 4)
-[2018.07.24-04.57.31:816][433]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.07.24-04.57.52:932][959]BlueprintLog: New page: Compile ProjectR_MainHall
-[2018.07.24-04.58.34:393][431]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape1)
-[2018.07.24-04.58.34:422][431]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.07.24-04.58.35:259][528]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel' has LevelScriptBlueprint '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall' with GeneratedClass '/Game/ProjectR_MainHall.ProjectR_MainHall_C' with ClassGeneratedBy '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall'
-[2018.07.24-04.58.35:259][528]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.07.24-04.58.35:259][528]PIE: New page: PIE session: ProjectR_MainHall (Jul 24, 2018, 1:58:35 PM)
-[2018.07.24-04.58.35:259][528]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_ProjectR_MainHall
-[2018.07.24-04.58.35:280][528]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020466s)
-[2018.07.24-04.58.35:280][528]LogAIModule: Creating AISystem for world ProjectR_MainHall
-[2018.07.24-04.58.35:280][528]LogPlayLevel: PIE: World Init took: (0.000526s)
-[2018.07.24-04.58.35:280][528]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ProjectR_MainHall.ProjectR_MainHall to /Game/UEDPIE_0_ProjectR_MainHall.ProjectR_MainHall (0.021140s)
-[2018.07.24-04.58.35:297][528]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.07.24-04.58.35:311][528]LogInit: FAudioDevice initialized.
-[2018.07.24-04.58.35:311][528]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.07.24-04.58.35:343][528]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2018.07.24-04.58.35:349][528]LogWorld: Bringing World /Game/UEDPIE_0_ProjectR_MainHall.ProjectR_MainHall up for play (max tick rate 0) at 2018.07.24-09.28.35
-[2018.07.24-04.58.35:349][528]LogWorld: Bringing up level for play took: 0.005693
-[2018.07.24-04.58.35:351][528]PIE: Play in editor start time for /Game/UEDPIE_0_ProjectR_MainHall 0.386
-[2018.07.24-04.58.35:351][528]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel' has LevelScriptBlueprint '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall' with GeneratedClass '/Game/ProjectR_MainHall.ProjectR_MainHall_C' with ClassGeneratedBy '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall'
-[2018.07.24-04.58.39:923][ 74]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel' has LevelScriptBlueprint '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall' with GeneratedClass '/Game/ProjectR_MainHall.ProjectR_MainHall_C' with ClassGeneratedBy '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall'
-[2018.07.24-04.58.39:960][ 74]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel' has LevelScriptBlueprint '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall' with GeneratedClass '/Game/ProjectR_MainHall.ProjectR_MainHall_C' with ClassGeneratedBy '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall'
-[2018.07.24-04.58.40:836][175]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.07.24-05.00.59:475][381]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ProjectR_MainHall" FILE="../../../../../Workstation/ProjectR/Content/ProjectR_MainHall.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2018.07.24-05.00.59:825][381]LogSavePackage: Save=330.48ms
-[2018.07.24-05.00.59:825][381]LogSavePackage: Moving '../../../../../Workstation/ProjectR/Saved/ProjectR_MainHall75AE2184418731A1D9AE3C85FF6DB592.tmp' to '../../../../../Workstation/ProjectR/Content/ProjectR_MainHall.umap'
-[2018.07.24-05.00.59:826][381]LogSavePackage: Display: Finished SavePackage ../../../../../Workstation/ProjectR/Content/ProjectR_MainHall.umap
-[2018.07.24-05.00.59:845][381]LogFileHelpers: Saving map 'ProjectR_MainHall' took 0.406
-[2018.07.24-05.01.12:112][384]SourceControl: fatal: h:/Unreal Engine/Epic Games/UE_4.19/Engine/Content: 'h:/Unreal Engine/Epic Games/UE_4.19/Engine/Content' is outside repository
-[2018.07.24-05.01.14:944][384]LogSlate: Window 'Submit Files' being destroyed
+[2018.07.26-10.32.12:017][  0]LogPython: ue_site Python module successfully imported
+[2018.07.26-10.32.12:375][  0]LogEngine: Initializing Engine...
+[2018.07.26-10.32.12:390][  0]LogHMD: Failed to initialize OpenVR with code 101
+[2018.07.26-10.32.12:408][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.07.26-10.32.12:409][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.07.26-10.32.13:127][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.07.26-10.32.13:193][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.07.26-10.32.13:253][  0]LogInit: FAudioDevice initialized.
+[2018.07.26-10.32.13:375][  0]LogDerivedDataCache: Saved boot cache 0.12s 74MB C:/Users/Hosein/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.07.26-10.32.13:384][  0]LogInit: Texture streaming: Enabled
+[2018.07.26-10.32.13:448][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.07.26-10.32.14:235][  0]LogInit: Transaction tracking system initialized
+[2018.07.26-10.32.14:438][  0]BlueprintLog: New page: Editor Load
+[2018.07.26-10.32.15:052][  0]LocalizationService: Localization service is disabled
+[2018.07.26-10.32.15:626][  0]LogConsoleResponse: Display: 
+[2018.07.26-10.32.17:236][  0]LogFileCache: Scanning file cache for directory 'h:/Unreal Engine/Workstation/ProjectR/Content/' took 0.02s
+[2018.07.26-10.32.17:236][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.07.26-10.32.17:236][  0]LogCook: Display: Mobile HDR setting 1
+[2018.07.26-10.32.17:236][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.07.26-10.32.17:236][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.07.26-10.32.17:236][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.07.26-10.32.18:340][  0]Cmd: MAP LOAD FILE="../../../../../Workstation/ProjectR/Content/ProjectR_MainHall.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.07.26-10.32.18:347][  0]LightingResults: New page: Lighting Build
+[2018.07.26-10.32.18:433][  0]MapCheck: New page: Map Check
+[2018.07.26-10.32.18:433][  0]LightingResults: New page: Lighting Build
+[2018.07.26-10.32.27:105][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [11.420094ms] /Game/Mannequin/Character/Mesh/SK_Mannequin.SK_Mannequin
+[2018.07.26-10.32.27:151][  0]LogAIModule: Creating AISystem for world ProjectR_MainHall
+[2018.07.26-10.32.27:698][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.07.26-10.32.27:757][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.07.26-10.32.27:790][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 33.437ms to complete.
+[2018.07.26-10.32.27:790][  0]LogFileHelpers: Loading map 'ProjectR_MainHall' took 9.469
+[2018.07.26-10.32.29:285][  0]LogCollectionManager: Loaded 0 collections in 0.001053 seconds
+[2018.07.26-10.32.29:361][  0]LogFileCache: Scanning file cache for directory 'h:/Unreal Engine/Workstation/ProjectR/Saved/Collections/' took 0.01s
+[2018.07.26-10.32.29:361][  0]LogFileCache: Scanning file cache for directory 'h:/Unreal Engine/Workstation/ProjectR/Content/Developers/Hosein/Collections/' took 0.01s
+[2018.07.26-10.32.29:361][  0]LogFileCache: Scanning file cache for directory 'h:/Unreal Engine/Workstation/ProjectR/Content/Collections/' took 0.01s
+[2018.07.26-10.32.29:361][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.07.26-10.32.29:377][  0]LogContentBrowser: Native class hierarchy populated in 0.0152 seconds. Added 2474 classes and 570 folders.
+[2018.07.26-10.32.29:432][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.07.26-10.32.30:100][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.07.26-10.32.30:195][  0]LogSlate: Took 0.022959 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.07.26-10.32.30:254][  0]LogSlate: Took 0.037239 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.07.26-10.32.30:625][  0]LogRenderer: Reallocating scene render targets to support 1192x920 Format 10 NumSamples 1 (Frame:1).
+[2018.07.26-10.32.30:963][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.07.26-10.32.30:963][  0]LogLoad: (Engine Initialization) Total time: 66.44 seconds
+[2018.07.26-10.32.30:963][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.07.26-10.32.31:380][  0]LogContentStreaming: Texture pool size now 3000 MB
+[2018.07.26-10.32.31:647][  1]LogAssetRegistry: Asset discovery search completed in 38.4815 seconds
+[2018.07.26-10.32.31:649][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.07.26-10.32.31:649][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000033 seconds (updated 0 objects)
+[2018.07.26-10.32.32:330][  3]LogSlate: Took 0.026243 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.07.26-10.45.26:631][326]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.07.26-10.45.26:631][326]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.07.26-10.45.28:112][483]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.26-10.45.28:200][493]LogLinker: Warning: Can't resolve asset name
+[2018.07.26-10.45.43:163][755]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.26-10.45.43:184][755]LogSlate: Took 0.020944 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.07.26-10.45.43:238][755]LogSlate: Took 0.002762 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.07.26-10.45.49:121][362]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0004 seconds. Added 116 classes and 0 folders.
+[2018.07.26-10.45.50:109][362]LogSlate: Took 0.022180 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.07.26-10.45.50:544][363]LogSlate: Took 0.022958 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.07.26-10.45.52:160][545]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (TriggerBox)
+[2018.07.26-10.45.52:963][617]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.26-10.46.06:607][188]LogSlate: Window 'ProjectR_MainHall - Level Blueprint Editor' being destroyed
+[2018.07.26-10.46.43:716][833]LogHttp: Warning: 0000014A24DA4700: request failed, libcurl error: 7 (Couldn't connect to server)
+[2018.07.26-10.46.43:716][833]LogHttp: Warning: 0000014A24DA4700: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1498e5dbfe8 [can pipeline])
+[2018.07.26-10.46.43:716][833]LogHttp: Warning: 0000014A24DA4700: libcurl info message cache 1 (Re-using existing connection! (#6) with host datarouter.ol.epicgames.com)
+[2018.07.26-10.46.43:716][833]LogHttp: Warning: 0000014A24DA4700: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (127.8.0.1) port 443 (#6))
+[2018.07.26-10.46.43:716][833]LogHttp: Warning: 0000014A24DA4700: libcurl info message cache 3 (upload completely sent off: 1075 out of 1075 bytes)
+[2018.07.26-10.46.43:716][833]LogHttp: Warning: 0000014A24DA4700: libcurl info message cache 4 (TLSv1.2 (IN), TLS alert, Client hello (1):)
+[2018.07.26-10.46.43:716][833]LogHttp: Warning: 0000014A24DA4700: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2018.07.26-10.46.43:716][833]LogHttp: Warning: 0000014A24DA4700: libcurl info message cache 6 (Closing connection 6)
+[2018.07.26-10.46.43:716][833]LogHttp: Warning: 0000014A24DA4700: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2018.07.26-10.46.43:716][833]LogHttp: Warning: 0000014A24DA4700: libcurl info message cache 8 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B699CD4D6-418F-D50A-F88B-6C8EFD13B1DB%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.19.1-3989454%2B%2B%2BUE4%2BRelease-4.19&UserID=8f4d5c1c4eafcac68c351ba8404bab02%7C4d7499ea85c448a6913f6e898ee54099%7C2f2398f0-bd0a-4231-848c-fc7a92319f55&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2018.07.26-10.46.43:716][833]LogHttp: Warning: 0000014A24DA4700: libcurl info message cache 9 (  Trying 127.8.0.1...)
+[2018.07.26-10.46.43:716][833]LogHttp: Warning: 0000014A24DA4700: libcurl info message cache 10 (connect to 127.8.0.1 port 443 failed: Connection refused)
+[2018.07.26-10.46.43:716][833]LogHttp: Warning: 0000014A24DA4700: libcurl info message cache 11 (Failed to connect to datarouter.ol.epicgames.com port 443: Connection refused)
+[2018.07.26-10.46.43:716][833]LogHttp: Warning: 0000014A24DA4700: libcurl info message cache 12 (Closing connection 7)
+[2018.07.26-10.58.41:716][987]LogHttp: Warning: 0000014A24DA5180: request failed, libcurl error: 7 (Couldn't connect to server)
+[2018.07.26-10.58.41:716][987]LogHttp: Warning: 0000014A24DA5180: libcurl info message cache 0 (Connection 12 seems to be dead!)
+[2018.07.26-10.58.41:716][987]LogHttp: Warning: 0000014A24DA5180: libcurl info message cache 1 (Closing connection 12)
+[2018.07.26-10.58.41:716][987]LogHttp: Warning: 0000014A24DA5180: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2018.07.26-10.58.41:716][987]LogHttp: Warning: 0000014A24DA5180: libcurl info message cache 3 (  Trying 127.8.0.1...)
+[2018.07.26-10.58.41:716][987]LogHttp: Warning: 0000014A24DA5180: libcurl info message cache 4 (connect to 127.8.0.1 port 443 failed: Connection refused)
+[2018.07.26-10.58.41:716][987]LogHttp: Warning: 0000014A24DA5180: libcurl info message cache 5 (Failed to connect to datarouter.ol.epicgames.com port 443: Connection refused)
+[2018.07.26-10.58.41:716][987]LogHttp: Warning: 0000014A24DA5180: libcurl info message cache 6 (Closing connection 13)
+[2018.07.26-11.06.22:690][651]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape1)
+[2018.07.26-11.06.22:860][651]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.26-11.06.23:759][738]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel' has LevelScriptBlueprint '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall' with GeneratedClass '/Game/ProjectR_MainHall.ProjectR_MainHall_C' with ClassGeneratedBy '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall'
+[2018.07.26-11.06.23:759][738]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.26-11.06.23:794][738]PIE: New page: PIE session: ProjectR_MainHall (Jul 26, 2018, 8:06:23 PM)
+[2018.07.26-11.06.23:794][738]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_ProjectR_MainHall
+[2018.07.26-11.06.23:894][738]LogPlayLevel: PIE: StaticDuplicateObject took: (0.099853s)
+[2018.07.26-11.06.23:894][738]LogAIModule: Creating AISystem for world ProjectR_MainHall
+[2018.07.26-11.06.23:894][738]LogPlayLevel: PIE: World Init took: (0.000558s)
+[2018.07.26-11.06.23:894][738]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ProjectR_MainHall.ProjectR_MainHall to /Game/UEDPIE_0_ProjectR_MainHall.ProjectR_MainHall (0.100585s)
+[2018.07.26-11.06.23:914][738]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.07.26-11.06.23:931][738]LogInit: FAudioDevice initialized.
+[2018.07.26-11.06.23:931][738]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.26-11.06.24:043][738]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.07.26-11.06.24:076][738]LogWorld: Bringing World /Game/UEDPIE_0_ProjectR_MainHall.ProjectR_MainHall up for play (max tick rate 0) at 2018.07.26-15.36.24
+[2018.07.26-11.06.24:100][738]LogWorld: Bringing up level for play took: 0.030819
+[2018.07.26-11.06.24:318][738]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0002 seconds. Added 11 classes and 0 folders.
+[2018.07.26-11.06.24:445][738]PIE: Play in editor start time for /Game/UEDPIE_0_ProjectR_MainHall 1.705
+[2018.07.26-11.06.24:445][738]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel' has LevelScriptBlueprint '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall' with GeneratedClass '/Game/ProjectR_MainHall.ProjectR_MainHall_C' with ClassGeneratedBy '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall'
+[2018.07.26-11.06.30:284][409]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel' has LevelScriptBlueprint '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall' with GeneratedClass '/Game/ProjectR_MainHall.ProjectR_MainHall_C' with ClassGeneratedBy '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall'
+[2018.07.26-11.06.30:419][409]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel' has LevelScriptBlueprint '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall' with GeneratedClass '/Game/ProjectR_MainHall.ProjectR_MainHall_C' with ClassGeneratedBy '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall'
+[2018.07.26-11.06.38:305][321]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.26-11.06.44:699][ 31]SourceControl: fatal: h:/Unreal Engine/Epic Games/UE_4.19/Engine/Content: 'h:/Unreal Engine/Epic Games/UE_4.19/Engine/Content' is outside repository
+[2018.07.26-11.06.44:846][ 31]EditorErrors: Warning: No assets to check in!
+[2018.07.26-11.12.26:814][220]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.07.26-11.12.26:814][220]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.07.26-11.15.41:692][843]LogHttp: Warning: 000001499271B400: request failed, libcurl error: 7 (Couldn't connect to server)
+[2018.07.26-11.15.41:692][843]LogHttp: Warning: 000001499271B400: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1498e5dbfe8 [can pipeline])
+[2018.07.26-11.15.41:692][843]LogHttp: Warning: 000001499271B400: libcurl info message cache 1 (Re-using existing connection! (#20) with host datarouter.ol.epicgames.com)
+[2018.07.26-11.15.41:692][843]LogHttp: Warning: 000001499271B400: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (127.8.0.1) port 443 (#20))
+[2018.07.26-11.15.41:692][843]LogHttp: Warning: 000001499271B400: libcurl info message cache 3 (upload completely sent off: 702 out of 702 bytes)
+[2018.07.26-11.15.41:692][843]LogHttp: Warning: 000001499271B400: libcurl info message cache 4 (TLSv1.2 (IN), TLS alert, Client hello (1):)
+[2018.07.26-11.15.41:692][843]LogHttp: Warning: 000001499271B400: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2018.07.26-11.15.41:692][843]LogHttp: Warning: 000001499271B400: libcurl info message cache 6 (Closing connection 20)
+[2018.07.26-11.15.41:692][843]LogHttp: Warning: 000001499271B400: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2018.07.26-11.15.41:692][843]LogHttp: Warning: 000001499271B400: libcurl info message cache 8 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B699CD4D6-418F-D50A-F88B-6C8EFD13B1DB%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.19.1-3989454%2B%2B%2BUE4%2BRelease-4.19&UserID=8f4d5c1c4eafcac68c351ba8404bab02%7C4d7499ea85c448a6913f6e898ee54099%7C2f2398f0-bd0a-4231-848c-fc7a92319f55&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2018.07.26-11.15.41:693][843]LogHttp: Warning: 000001499271B400: libcurl info message cache 9 (  Trying 127.8.0.1...)
+[2018.07.26-11.15.41:693][843]LogHttp: Warning: 000001499271B400: libcurl info message cache 10 (connect to 127.8.0.1 port 443 failed: Connection refused)
+[2018.07.26-11.15.41:693][843]LogHttp: Warning: 000001499271B400: libcurl info message cache 11 (Failed to connect to datarouter.ol.epicgames.com port 443: Connection refused)
+[2018.07.26-11.15.41:693][843]LogHttp: Warning: 000001499271B400: libcurl info message cache 12 (Closing connection 21)
+[2018.07.26-11.24.22:364][405]LogHttp: Warning: 000001499271B400: request failed, libcurl error: 7 (Couldn't connect to server)
+[2018.07.26-11.24.22:364][405]LogHttp: Warning: 000001499271B400: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1498e5dbfe8 [can pipeline])
+[2018.07.26-11.24.22:364][405]LogHttp: Warning: 000001499271B400: libcurl info message cache 1 (Re-using existing connection! (#24) with host datarouter.ol.epicgames.com)
+[2018.07.26-11.24.22:364][405]LogHttp: Warning: 000001499271B400: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (35.168.211.70) port 443 (#24))
+[2018.07.26-11.24.22:364][405]LogHttp: Warning: 000001499271B400: libcurl info message cache 3 (upload completely sent off: 702 out of 702 bytes)
+[2018.07.26-11.24.22:364][405]LogHttp: Warning: 000001499271B400: libcurl info message cache 4 (SSL read: error:00000000:lib(0):func(0):reason(0), errno 10054)
+[2018.07.26-11.24.22:364][405]LogHttp: Warning: 000001499271B400: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2018.07.26-11.24.22:364][405]LogHttp: Warning: 000001499271B400: libcurl info message cache 6 (Closing connection 24)
+[2018.07.26-11.24.22:364][405]LogHttp: Warning: 000001499271B400: libcurl info message cache 7 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B699CD4D6-418F-D50A-F88B-6C8EFD13B1DB%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.19.1-3989454%2B%2B%2BUE4%2BRelease-4.19&UserID=8f4d5c1c4eafcac68c351ba8404bab02%7C4d7499ea85c448a6913f6e898ee54099%7C2f2398f0-bd0a-4231-848c-fc7a92319f55&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2018.07.26-11.24.22:364][405]LogHttp: Warning: 000001499271B400: libcurl info message cache 8 (  Trying 10.0.0.1...)
+[2018.07.26-11.24.22:364][405]LogHttp: Warning: 000001499271B400: libcurl info message cache 9 (connect to 10.0.0.1 port 443 failed: Timed out)
+[2018.07.26-11.24.22:364][405]LogHttp: Warning: 000001499271B400: libcurl info message cache 10 (Failed to connect to datarouter.ol.epicgames.com port 443: Timed out)
+[2018.07.26-11.24.22:364][405]LogHttp: Warning: 000001499271B400: libcurl info message cache 11 (Closing connection 25)
+[2018.07.26-11.26.44:030][830]LogHttp: Warning: 0000014A1BDA4D00: request failed, libcurl error: 7 (Couldn't connect to server)
+[2018.07.26-11.26.44:030][830]LogHttp: Warning: 0000014A1BDA4D00: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.07.26-11.26.44:030][830]LogHttp: Warning: 0000014A1BDA4D00: libcurl info message cache 1 (  Trying 10.0.0.1...)
+[2018.07.26-11.26.44:030][830]LogHttp: Warning: 0000014A1BDA4D00: libcurl info message cache 2 (connect to 10.0.0.1 port 443 failed: Timed out)
+[2018.07.26-11.26.44:030][830]LogHttp: Warning: 0000014A1BDA4D00: libcurl info message cache 3 (Failed to connect to datarouter.ol.epicgames.com port 443: Timed out)
+[2018.07.26-11.26.44:030][830]LogHttp: Warning: 0000014A1BDA4D00: libcurl info message cache 4 (Closing connection 26)
+[2018.07.26-11.29.05:364][254]LogHttp: Warning: 000001499271BD00: request failed, libcurl error: 7 (Couldn't connect to server)
+[2018.07.26-11.29.05:364][254]LogHttp: Warning: 000001499271BD00: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.07.26-11.29.05:364][254]LogHttp: Warning: 000001499271BD00: libcurl info message cache 1 (  Trying 10.0.0.1...)
+[2018.07.26-11.29.05:364][254]LogHttp: Warning: 000001499271BD00: libcurl info message cache 2 (connect to 10.0.0.1 port 443 failed: Timed out)
+[2018.07.26-11.29.05:364][254]LogHttp: Warning: 000001499271BD00: libcurl info message cache 3 (Failed to connect to datarouter.ol.epicgames.com port 443: Timed out)
+[2018.07.26-11.29.05:365][254]LogHttp: Warning: 000001499271BD00: libcurl info message cache 4 (Closing connection 27)
+[2018.07.26-11.45.27:690][200]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.07.26-11.45.27:690][200]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.07.26-11.45.51:204][455]LogSlate: Took 0.031185 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/NotoNaskhArabicUI-Regular.ttf' (144K)
+[2018.07.26-11.45.53:798][764]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.07.26-11.45.53:798][764]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.07.26-11.46.12:196][645]BlueprintLog: New page: Compile ProjectR_MainHall
+[2018.07.26-11.46.13:380][763]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape1)
+[2018.07.26-11.46.13:412][763]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.26-11.46.14:237][858]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel' has LevelScriptBlueprint '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall' with GeneratedClass '/Game/ProjectR_MainHall.ProjectR_MainHall_C' with ClassGeneratedBy '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall'
+[2018.07.26-11.46.14:238][858]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.26-11.46.14:238][858]PIE: New page: PIE session: ProjectR_MainHall (Jul 26, 2018, 8:46:14 PM)
+[2018.07.26-11.46.14:238][858]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_ProjectR_MainHall
+[2018.07.26-11.46.14:257][858]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019325s)
+[2018.07.26-11.46.14:257][858]LogAIModule: Creating AISystem for world ProjectR_MainHall
+[2018.07.26-11.46.14:258][858]LogPlayLevel: PIE: World Init took: (0.000543s)
+[2018.07.26-11.46.14:258][858]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ProjectR_MainHall.ProjectR_MainHall to /Game/UEDPIE_0_ProjectR_MainHall.ProjectR_MainHall (0.020044s)
+[2018.07.26-11.46.14:275][858]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.07.26-11.46.14:289][858]LogInit: FAudioDevice initialized.
+[2018.07.26-11.46.14:289][858]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.26-11.46.14:319][858]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.07.26-11.46.14:325][858]LogWorld: Bringing World /Game/UEDPIE_0_ProjectR_MainHall.ProjectR_MainHall up for play (max tick rate 0) at 2018.07.26-16.16.14
+[2018.07.26-11.46.14:325][858]LogWorld: Bringing up level for play took: 0.005401
+[2018.07.26-11.46.14:326][858]PIE: Play in editor start time for /Game/UEDPIE_0_ProjectR_MainHall -0.414
+[2018.07.26-11.46.14:327][858]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel' has LevelScriptBlueprint '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall' with GeneratedClass '/Game/ProjectR_MainHall.ProjectR_MainHall_C' with ClassGeneratedBy '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall'
+[2018.07.26-11.46.18:859][399]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel' has LevelScriptBlueprint '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall' with GeneratedClass '/Game/ProjectR_MainHall.ProjectR_MainHall_C' with ClassGeneratedBy '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall'
+[2018.07.26-11.46.18:894][399]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel' has LevelScriptBlueprint '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall' with GeneratedClass '/Game/ProjectR_MainHall.ProjectR_MainHall_C' with ClassGeneratedBy '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall'
+[2018.07.26-11.46.19:893][514]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.26-11.46.54:700][608]BlueprintLog: New page: Compile ProjectR_MainHall
+[2018.07.26-11.46.55:594][695]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ProjectR_MainHall" FILE="../../../../../Workstation/ProjectR/Saved/Autosaves/Game/ProjectR_MainHall_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2018.07.26-11.46.56:051][695]LogSavePackage: Save=345.89ms
+[2018.07.26-11.46.56:051][695]LogSavePackage: Moving '../../../../../Workstation/ProjectR/Saved/ProjectR_MainHall_Auto14EC074C045148571A8F4CAB7C98200B5.tmp' to '../../../../../Workstation/ProjectR/Saved/Autosaves/Game/ProjectR_MainHall_Auto1.umap'
+[2018.07.26-11.46.56:052][695]LogSavePackage: Display: Finished SavePackage ../../../../../Workstation/ProjectR/Saved/Autosaves/Game/ProjectR_MainHall_Auto1.umap
+[2018.07.26-11.46.56:084][695]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ProjectR_MainHall' took 0.565
+[2018.07.26-11.46.56:084][695]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.565
+[2018.07.26-11.46.56:602][757]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape1)
+[2018.07.26-11.46.56:633][757]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.26-11.46.57:744][885]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel' has LevelScriptBlueprint '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall' with GeneratedClass '/Game/ProjectR_MainHall.ProjectR_MainHall_C' with ClassGeneratedBy '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall'
+[2018.07.26-11.46.57:744][885]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.26-11.46.57:744][885]PIE: New page: PIE session: ProjectR_MainHall (Jul 26, 2018, 8:46:57 PM)
+[2018.07.26-11.46.57:744][885]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_ProjectR_MainHall
+[2018.07.26-11.46.57:765][885]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020605s)
+[2018.07.26-11.46.57:765][885]LogAIModule: Creating AISystem for world ProjectR_MainHall
+[2018.07.26-11.46.57:765][885]LogPlayLevel: PIE: World Init took: (0.000458s)
+[2018.07.26-11.46.57:765][885]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ProjectR_MainHall.ProjectR_MainHall to /Game/UEDPIE_0_ProjectR_MainHall.ProjectR_MainHall (0.021210s)
+[2018.07.26-11.46.57:783][885]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.07.26-11.46.57:797][885]LogInit: FAudioDevice initialized.
+[2018.07.26-11.46.57:797][885]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.26-11.46.57:825][885]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.07.26-11.46.57:831][885]LogWorld: Bringing World /Game/UEDPIE_0_ProjectR_MainHall.ProjectR_MainHall up for play (max tick rate 0) at 2018.07.26-16.16.57
+[2018.07.26-11.46.57:831][885]LogWorld: Bringing up level for play took: 0.005395
+[2018.07.26-11.46.57:832][885]PIE: Play in editor start time for /Game/UEDPIE_0_ProjectR_MainHall -0.908
+[2018.07.26-11.46.57:833][885]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel' has LevelScriptBlueprint '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall' with GeneratedClass '/Game/ProjectR_MainHall.ProjectR_MainHall_C' with ClassGeneratedBy '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall'
+[2018.07.26-11.47.04:527][678]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel' has LevelScriptBlueprint '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall' with GeneratedClass '/Game/ProjectR_MainHall.ProjectR_MainHall_C' with ClassGeneratedBy '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall'
+[2018.07.26-11.47.04:558][678]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel' has LevelScriptBlueprint '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall' with GeneratedClass '/Game/ProjectR_MainHall.ProjectR_MainHall_C' with ClassGeneratedBy '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall'
+[2018.07.26-11.47.05:668][806]LogEditorViewport: Clicking on Actor (LMB): TargetPoint (TargetPoint)
+[2018.07.26-11.47.13:927][764]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape1)
+[2018.07.26-11.47.13:958][764]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.26-11.47.14:784][852]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel' has LevelScriptBlueprint '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall' with GeneratedClass '/Game/ProjectR_MainHall.ProjectR_MainHall_C' with ClassGeneratedBy '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall'
+[2018.07.26-11.47.14:784][852]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.26-11.47.14:784][852]PIE: New page: PIE session: ProjectR_MainHall (Jul 26, 2018, 8:47:14 PM)
+[2018.07.26-11.47.14:784][852]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_ProjectR_MainHall
+[2018.07.26-11.47.14:804][852]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019243s)
+[2018.07.26-11.47.14:804][852]LogAIModule: Creating AISystem for world ProjectR_MainHall
+[2018.07.26-11.47.14:804][852]LogPlayLevel: PIE: World Init took: (0.000436s)
+[2018.07.26-11.47.14:804][852]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ProjectR_MainHall.ProjectR_MainHall to /Game/UEDPIE_0_ProjectR_MainHall.ProjectR_MainHall (0.019821s)
+[2018.07.26-11.47.14:822][852]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.07.26-11.47.14:835][852]LogInit: FAudioDevice initialized.
+[2018.07.26-11.47.14:835][852]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.26-11.47.14:863][852]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.07.26-11.47.14:869][852]LogWorld: Bringing World /Game/UEDPIE_0_ProjectR_MainHall.ProjectR_MainHall up for play (max tick rate 0) at 2018.07.26-16.17.14
+[2018.07.26-11.47.14:869][852]LogWorld: Bringing up level for play took: 0.005587
+[2018.07.26-11.47.14:871][852]PIE: Play in editor start time for /Game/UEDPIE_0_ProjectR_MainHall 0.13
+[2018.07.26-11.47.14:871][852]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel' has LevelScriptBlueprint '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall' with GeneratedClass '/Game/ProjectR_MainHall.ProjectR_MainHall_C' with ClassGeneratedBy '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall'
+[2018.07.26-11.47.21:193][608]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel' has LevelScriptBlueprint '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall' with GeneratedClass '/Game/ProjectR_MainHall.ProjectR_MainHall_C' with ClassGeneratedBy '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall'
+[2018.07.26-11.47.21:224][608]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel' has LevelScriptBlueprint '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall' with GeneratedClass '/Game/ProjectR_MainHall.ProjectR_MainHall_C' with ClassGeneratedBy '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall'
+[2018.07.26-11.47.22:388][742]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.26-11.47.42:984][202]BlueprintLog: New page: Compile ProjectR_MainHall
+[2018.07.26-11.47.45:849][536]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape1)
+[2018.07.26-11.47.45:881][536]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.26-11.47.51:170][130]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (TriggerBox2)
+[2018.07.26-11.47.51:652][183]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (TriggerBox2)
+[2018.07.26-11.47.52:187][245]Cmd: DELETE
+[2018.07.26-11.47.52:187][245]Cmd: ACTOR DELETE
+[2018.07.26-11.47.52:237][245]LogEditorActor: Deleted Actor: TriggerBox
+[2018.07.26-11.47.52:253][245]LogEditorActor: Deleted 1 Actors (0.037 secs)
+[2018.07.26-11.47.55:068][570]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape1)
+[2018.07.26-11.47.55:096][570]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.26-11.47.55:968][666]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel' has LevelScriptBlueprint '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall' with GeneratedClass '/Game/ProjectR_MainHall.ProjectR_MainHall_C' with ClassGeneratedBy '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall'
+[2018.07.26-11.47.55:968][666]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.26-11.47.55:968][666]PIE: New page: PIE session: ProjectR_MainHall (Jul 26, 2018, 8:47:55 PM)
+[2018.07.26-11.47.55:968][666]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_ProjectR_MainHall
+[2018.07.26-11.47.55:988][666]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019376s)
+[2018.07.26-11.47.55:988][666]LogAIModule: Creating AISystem for world ProjectR_MainHall
+[2018.07.26-11.47.55:988][666]LogPlayLevel: PIE: World Init took: (0.000463s)
+[2018.07.26-11.47.55:988][666]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ProjectR_MainHall.ProjectR_MainHall to /Game/UEDPIE_0_ProjectR_MainHall.ProjectR_MainHall (0.019996s)
+[2018.07.26-11.47.56:006][666]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.07.26-11.47.56:019][666]LogInit: FAudioDevice initialized.
+[2018.07.26-11.47.56:019][666]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.26-11.47.56:046][666]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.07.26-11.47.56:052][666]LogWorld: Bringing World /Game/UEDPIE_0_ProjectR_MainHall.ProjectR_MainHall up for play (max tick rate 0) at 2018.07.26-16.17.56
+[2018.07.26-11.47.56:052][666]LogWorld: Bringing up level for play took: 0.005370
+[2018.07.26-11.47.56:054][666]PIE: Play in editor start time for /Game/UEDPIE_0_ProjectR_MainHall -0.686
+[2018.07.26-11.47.56:054][666]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel' has LevelScriptBlueprint '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall' with GeneratedClass '/Game/ProjectR_MainHall.ProjectR_MainHall_C' with ClassGeneratedBy '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall'
+[2018.07.26-11.48.07:900][ 85]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.26-11.48.11:159][476]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel' has LevelScriptBlueprint '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall' with GeneratedClass '/Game/ProjectR_MainHall.ProjectR_MainHall_C' with ClassGeneratedBy '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall'
+[2018.07.26-11.48.11:195][476]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel' has LevelScriptBlueprint '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall' with GeneratedClass '/Game/ProjectR_MainHall.ProjectR_MainHall_C' with ClassGeneratedBy '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall'
+[2018.07.26-11.49.27:629][603]BlueprintLog: New page: Compile ProjectR_MainHall
+[2018.07.26-11.49.29:180][774]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape1)
+[2018.07.26-11.49.29:211][774]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.26-11.49.32:512][147]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape1)
+[2018.07.26-11.49.32:532][147]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.26-11.49.33:767][294]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel' has LevelScriptBlueprint '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall' with GeneratedClass '/Game/ProjectR_MainHall.ProjectR_MainHall_C' with ClassGeneratedBy '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall'
+[2018.07.26-11.49.33:767][294]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.26-11.49.33:767][294]PIE: New page: PIE session: ProjectR_MainHall (Jul 26, 2018, 8:49:33 PM)
+[2018.07.26-11.49.33:767][294]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_ProjectR_MainHall
+[2018.07.26-11.49.33:787][294]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019821s)
+[2018.07.26-11.49.33:787][294]LogAIModule: Creating AISystem for world ProjectR_MainHall
+[2018.07.26-11.49.33:787][294]LogPlayLevel: PIE: World Init took: (0.000542s)
+[2018.07.26-11.49.33:788][294]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ProjectR_MainHall.ProjectR_MainHall to /Game/UEDPIE_0_ProjectR_MainHall.ProjectR_MainHall (0.020525s)
+[2018.07.26-11.49.33:805][294]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.07.26-11.49.33:818][294]LogInit: FAudioDevice initialized.
+[2018.07.26-11.49.33:818][294]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.26-11.49.33:847][294]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.07.26-11.49.33:853][294]LogWorld: Bringing World /Game/UEDPIE_0_ProjectR_MainHall.ProjectR_MainHall up for play (max tick rate 0) at 2018.07.26-16.19.33
+[2018.07.26-11.49.33:853][294]LogWorld: Bringing up level for play took: 0.005514
+[2018.07.26-11.49.33:855][294]PIE: Play in editor start time for /Game/UEDPIE_0_ProjectR_MainHall -0.886
+[2018.07.26-11.49.33:855][294]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel' has LevelScriptBlueprint '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall' with GeneratedClass '/Game/ProjectR_MainHall.ProjectR_MainHall_C' with ClassGeneratedBy '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall'
+[2018.07.26-11.49.36:412][598]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel' has LevelScriptBlueprint '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall' with GeneratedClass '/Game/ProjectR_MainHall.ProjectR_MainHall_C' with ClassGeneratedBy '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall'
+[2018.07.26-11.49.36:446][598]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel' has LevelScriptBlueprint '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall' with GeneratedClass '/Game/ProjectR_MainHall.ProjectR_MainHall_C' with ClassGeneratedBy '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall'
+[2018.07.26-11.49.42:920][363]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.26-11.49.54:407][736]BlueprintLog: New page: Compile ProjectR_MainHall
+[2018.07.26-11.49.57:425][ 72]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape1)
+[2018.07.26-11.49.57:453][ 72]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.26-11.49.58:237][155]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel' has LevelScriptBlueprint '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall' with GeneratedClass '/Game/ProjectR_MainHall.ProjectR_MainHall_C' with ClassGeneratedBy '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall'
+[2018.07.26-11.49.58:237][155]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.26-11.49.58:237][155]PIE: New page: PIE session: ProjectR_MainHall (Jul 26, 2018, 8:49:58 PM)
+[2018.07.26-11.49.58:238][155]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_ProjectR_MainHall
+[2018.07.26-11.49.58:258][155]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019593s)
+[2018.07.26-11.49.58:258][155]LogAIModule: Creating AISystem for world ProjectR_MainHall
+[2018.07.26-11.49.58:258][155]LogPlayLevel: PIE: World Init took: (0.000478s)
+[2018.07.26-11.49.58:258][155]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ProjectR_MainHall.ProjectR_MainHall to /Game/UEDPIE_0_ProjectR_MainHall.ProjectR_MainHall (0.020218s)
+[2018.07.26-11.49.58:276][155]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.07.26-11.49.58:290][155]LogInit: FAudioDevice initialized.
+[2018.07.26-11.49.58:290][155]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.26-11.49.58:322][155]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.07.26-11.49.58:327][155]LogWorld: Bringing World /Game/UEDPIE_0_ProjectR_MainHall.ProjectR_MainHall up for play (max tick rate 0) at 2018.07.26-16.19.58
+[2018.07.26-11.49.58:328][155]LogWorld: Bringing up level for play took: 0.005605
+[2018.07.26-11.49.58:329][155]PIE: Play in editor start time for /Game/UEDPIE_0_ProjectR_MainHall -0.411
+[2018.07.26-11.49.58:330][155]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel' has LevelScriptBlueprint '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall' with GeneratedClass '/Game/ProjectR_MainHall.ProjectR_MainHall_C' with ClassGeneratedBy '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall'
+[2018.07.26-11.50.00:610][426]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel' has LevelScriptBlueprint '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall' with GeneratedClass '/Game/ProjectR_MainHall.ProjectR_MainHall_C' with ClassGeneratedBy '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall'
+[2018.07.26-11.50.00:648][426]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel' has LevelScriptBlueprint '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall' with GeneratedClass '/Game/ProjectR_MainHall.ProjectR_MainHall_C' with ClassGeneratedBy '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall'
+[2018.07.26-11.50.01:763][555]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.26-11.50.16:296][102]BlueprintLog: New page: Compile ProjectR_MainHall
+[2018.07.26-11.50.18:930][395]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape1)
+[2018.07.26-11.50.18:959][395]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.26-11.50.19:672][476]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel' has LevelScriptBlueprint '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall' with GeneratedClass '/Game/ProjectR_MainHall.ProjectR_MainHall_C' with ClassGeneratedBy '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall'
+[2018.07.26-11.50.19:672][476]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.26-11.50.19:672][476]PIE: New page: PIE session: ProjectR_MainHall (Jul 26, 2018, 8:50:19 PM)
+[2018.07.26-11.50.19:672][476]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_ProjectR_MainHall
+[2018.07.26-11.50.19:692][476]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019629s)
+[2018.07.26-11.50.19:692][476]LogAIModule: Creating AISystem for world ProjectR_MainHall
+[2018.07.26-11.50.19:692][476]LogPlayLevel: PIE: World Init took: (0.000461s)
+[2018.07.26-11.50.19:692][476]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ProjectR_MainHall.ProjectR_MainHall to /Game/UEDPIE_0_ProjectR_MainHall.ProjectR_MainHall (0.020221s)
+[2018.07.26-11.50.19:710][476]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.07.26-11.50.19:723][476]LogInit: FAudioDevice initialized.
+[2018.07.26-11.50.19:723][476]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.26-11.50.19:756][476]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.07.26-11.50.19:762][476]LogWorld: Bringing World /Game/UEDPIE_0_ProjectR_MainHall.ProjectR_MainHall up for play (max tick rate 0) at 2018.07.26-16.20.19
+[2018.07.26-11.50.19:762][476]LogWorld: Bringing up level for play took: 0.005349
+[2018.07.26-11.50.19:763][476]PIE: Play in editor start time for /Game/UEDPIE_0_ProjectR_MainHall 1.023
+[2018.07.26-11.50.19:763][476]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel' has LevelScriptBlueprint '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall' with GeneratedClass '/Game/ProjectR_MainHall.ProjectR_MainHall_C' with ClassGeneratedBy '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall'
+[2018.07.26-11.50.23:752][947]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel' has LevelScriptBlueprint '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall' with GeneratedClass '/Game/ProjectR_MainHall.ProjectR_MainHall_C' with ClassGeneratedBy '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall'
+[2018.07.26-11.50.23:790][947]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel' has LevelScriptBlueprint '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall' with GeneratedClass '/Game/ProjectR_MainHall.ProjectR_MainHall_C' with ClassGeneratedBy '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall'
+[2018.07.26-11.50.28:886][545]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.26-11.50.44:463][413]BlueprintLog: New page: Compile ProjectR_MainHall
+[2018.07.26-11.50.46:639][638]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape1)
+[2018.07.26-11.50.46:667][638]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.26-11.50.48:139][810]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel' has LevelScriptBlueprint '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall' with GeneratedClass '/Game/ProjectR_MainHall.ProjectR_MainHall_C' with ClassGeneratedBy '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall'
+[2018.07.26-11.50.48:139][810]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.26-11.50.48:139][810]PIE: New page: PIE session: ProjectR_MainHall (Jul 26, 2018, 8:50:48 PM)
+[2018.07.26-11.50.48:139][810]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_ProjectR_MainHall
+[2018.07.26-11.50.48:160][810]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019617s)
+[2018.07.26-11.50.48:160][810]LogAIModule: Creating AISystem for world ProjectR_MainHall
+[2018.07.26-11.50.48:160][810]LogPlayLevel: PIE: World Init took: (0.000409s)
+[2018.07.26-11.50.48:160][810]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ProjectR_MainHall.ProjectR_MainHall to /Game/UEDPIE_0_ProjectR_MainHall.ProjectR_MainHall (0.020156s)
+[2018.07.26-11.50.48:177][810]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.07.26-11.50.48:190][810]LogInit: FAudioDevice initialized.
+[2018.07.26-11.50.48:190][810]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.26-11.50.48:221][810]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.07.26-11.50.48:227][810]LogWorld: Bringing World /Game/UEDPIE_0_ProjectR_MainHall.ProjectR_MainHall up for play (max tick rate 0) at 2018.07.26-16.20.48
+[2018.07.26-11.50.48:227][810]LogWorld: Bringing up level for play took: 0.005344
+[2018.07.26-11.50.48:229][810]PIE: Play in editor start time for /Game/UEDPIE_0_ProjectR_MainHall -0.512
+[2018.07.26-11.50.48:229][810]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel' has LevelScriptBlueprint '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall' with GeneratedClass '/Game/ProjectR_MainHall.ProjectR_MainHall_C' with ClassGeneratedBy '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall'
+[2018.07.26-11.50.51:110][153]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel' has LevelScriptBlueprint '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall' with GeneratedClass '/Game/ProjectR_MainHall.ProjectR_MainHall_C' with ClassGeneratedBy '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall'
+[2018.07.26-11.50.51:143][153]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel' has LevelScriptBlueprint '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall' with GeneratedClass '/Game/ProjectR_MainHall.ProjectR_MainHall_C' with ClassGeneratedBy '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall'
+[2018.07.26-11.50.54:265][510]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.26-11.51.40:429][ 33]BlueprintLog: New page: Compile ProjectR_MainHall
+[2018.07.26-11.51.44:865][526]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape1)
+[2018.07.26-11.51.44:897][526]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.26-11.51.45:667][603]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel' has LevelScriptBlueprint '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall' with GeneratedClass '/Game/ProjectR_MainHall.ProjectR_MainHall_C' with ClassGeneratedBy '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall'
+[2018.07.26-11.51.45:667][603]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.26-11.51.45:667][603]PIE: New page: PIE session: ProjectR_MainHall (Jul 26, 2018, 8:51:45 PM)
+[2018.07.26-11.51.45:667][603]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_ProjectR_MainHall
+[2018.07.26-11.51.45:687][603]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019270s)
+[2018.07.26-11.51.45:687][603]LogAIModule: Creating AISystem for world ProjectR_MainHall
+[2018.07.26-11.51.45:687][603]LogPlayLevel: PIE: World Init took: (0.000422s)
+[2018.07.26-11.51.45:687][603]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ProjectR_MainHall.ProjectR_MainHall to /Game/UEDPIE_0_ProjectR_MainHall.ProjectR_MainHall (0.019830s)
+[2018.07.26-11.51.45:706][603]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.07.26-11.51.45:719][603]LogInit: FAudioDevice initialized.
+[2018.07.26-11.51.45:719][603]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.26-11.51.45:749][603]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.07.26-11.51.45:755][603]LogWorld: Bringing World /Game/UEDPIE_0_ProjectR_MainHall.ProjectR_MainHall up for play (max tick rate 0) at 2018.07.26-16.21.45
+[2018.07.26-11.51.45:756][603]LogWorld: Bringing up level for play took: 0.005333
+[2018.07.26-11.51.45:757][603]PIE: Play in editor start time for /Game/UEDPIE_0_ProjectR_MainHall 1.017
+[2018.07.26-11.51.45:758][603]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel' has LevelScriptBlueprint '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall' with GeneratedClass '/Game/ProjectR_MainHall.ProjectR_MainHall_C' with ClassGeneratedBy '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall'
+[2018.07.26-11.51.52:463][405]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel' has LevelScriptBlueprint '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall' with GeneratedClass '/Game/ProjectR_MainHall.ProjectR_MainHall_C' with ClassGeneratedBy '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall'
+[2018.07.26-11.51.52:497][405]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel' has LevelScriptBlueprint '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall' with GeneratedClass '/Game/ProjectR_MainHall.ProjectR_MainHall_C' with ClassGeneratedBy '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall'
+[2018.07.26-11.51.53:448][514]LogEditorViewport: Clicking on Actor (LMB): TargetPoint (TargetPoint)
+[2018.07.26-11.52.02:506][592]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.26-11.52.12:823][790]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape1)
+[2018.07.26-11.52.12:857][790]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.26-11.52.13:736][891]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel' has LevelScriptBlueprint '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall' with GeneratedClass '/Game/ProjectR_MainHall.ProjectR_MainHall_C' with ClassGeneratedBy '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall'
+[2018.07.26-11.52.13:736][891]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.26-11.52.13:736][891]PIE: New page: PIE session: ProjectR_MainHall (Jul 26, 2018, 8:52:13 PM)
+[2018.07.26-11.52.13:736][891]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_ProjectR_MainHall
+[2018.07.26-11.52.13:755][891]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019243s)
+[2018.07.26-11.52.13:756][891]LogAIModule: Creating AISystem for world ProjectR_MainHall
+[2018.07.26-11.52.13:756][891]LogPlayLevel: PIE: World Init took: (0.000426s)
+[2018.07.26-11.52.13:756][891]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ProjectR_MainHall.ProjectR_MainHall to /Game/UEDPIE_0_ProjectR_MainHall.ProjectR_MainHall (0.019815s)
+[2018.07.26-11.52.13:773][891]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.07.26-11.52.13:787][891]LogInit: FAudioDevice initialized.
+[2018.07.26-11.52.13:787][891]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.26-11.52.13:816][891]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.07.26-11.52.13:821][891]LogWorld: Bringing World /Game/UEDPIE_0_ProjectR_MainHall.ProjectR_MainHall up for play (max tick rate 0) at 2018.07.26-16.22.13
+[2018.07.26-11.52.13:822][891]LogWorld: Bringing up level for play took: 0.005285
+[2018.07.26-11.52.13:823][891]PIE: Play in editor start time for /Game/UEDPIE_0_ProjectR_MainHall 1.083
+[2018.07.26-11.52.13:823][891]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel' has LevelScriptBlueprint '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall' with GeneratedClass '/Game/ProjectR_MainHall.ProjectR_MainHall_C' with ClassGeneratedBy '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall'
+[2018.07.26-11.52.21:819][846]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel' has LevelScriptBlueprint '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall' with GeneratedClass '/Game/ProjectR_MainHall.ProjectR_MainHall_C' with ClassGeneratedBy '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall'
+[2018.07.26-11.52.21:856][846]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel' has LevelScriptBlueprint '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall' with GeneratedClass '/Game/ProjectR_MainHall.ProjectR_MainHall_C' with ClassGeneratedBy '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall'
+[2018.07.26-11.52.36:211][556]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ProjectR_PointofInterest)
+[2018.07.26-11.52.48:959][ 39]LogEditorViewport: Clicking on Actor (LMB): TargetPoint (TargetPoint)
+[2018.07.26-11.52.55:605][826]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.07.26-11.52.56:108][886]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.07.26-11.52.58:486][158]Cmd: TRANSACTION UNDO
+[2018.07.26-11.52.58:486][158]LogEditorTransaction: Undo Rotate Actors
+[2018.07.26-11.52.59:731][305]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.26-11.53.05:163][931]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape1)
+[2018.07.26-11.53.05:194][931]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.26-11.53.06:649][102]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel' has LevelScriptBlueprint '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall' with GeneratedClass '/Game/ProjectR_MainHall.ProjectR_MainHall_C' with ClassGeneratedBy '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall'
+[2018.07.26-11.53.06:649][102]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.26-11.53.06:650][102]PIE: New page: PIE session: ProjectR_MainHall (Jul 26, 2018, 8:53:06 PM)
+[2018.07.26-11.53.06:650][102]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_ProjectR_MainHall
+[2018.07.26-11.53.06:669][102]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019774s)
+[2018.07.26-11.53.06:670][102]LogAIModule: Creating AISystem for world ProjectR_MainHall
+[2018.07.26-11.53.06:670][102]LogPlayLevel: PIE: World Init took: (0.000415s)
+[2018.07.26-11.53.06:670][102]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ProjectR_MainHall.ProjectR_MainHall to /Game/UEDPIE_0_ProjectR_MainHall.ProjectR_MainHall (0.020326s)
+[2018.07.26-11.53.06:688][102]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.07.26-11.53.06:702][102]LogInit: FAudioDevice initialized.
+[2018.07.26-11.53.06:702][102]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.26-11.53.06:732][102]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.07.26-11.53.06:739][102]LogWorld: Bringing World /Game/UEDPIE_0_ProjectR_MainHall.ProjectR_MainHall up for play (max tick rate 0) at 2018.07.26-16.23.06
+[2018.07.26-11.53.06:739][102]LogWorld: Bringing up level for play took: 0.005491
+[2018.07.26-11.53.06:741][102]PIE: Play in editor start time for /Game/UEDPIE_0_ProjectR_MainHall 0
+[2018.07.26-11.53.06:741][102]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel' has LevelScriptBlueprint '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall' with GeneratedClass '/Game/ProjectR_MainHall.ProjectR_MainHall_C' with ClassGeneratedBy '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall'
+[2018.07.26-11.53.14:613][ 44]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel' has LevelScriptBlueprint '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall' with GeneratedClass '/Game/ProjectR_MainHall.ProjectR_MainHall_C' with ClassGeneratedBy '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall'
+[2018.07.26-11.53.14:645][ 44]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel' has LevelScriptBlueprint '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall' with GeneratedClass '/Game/ProjectR_MainHall.ProjectR_MainHall_C' with ClassGeneratedBy '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall'
+[2018.07.26-11.53.15:227][109]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.26-11.53.45:365][713]LogEditor: Attempting to add actor of class 'PyCharacter' to level at -7640.00,5600.00,-182.00
+[2018.07.26-11.53.45:520][723]LogEditor: Attempting to add actor of class 'PyCharacter' to level at -7990.00,5270.00,-182.00
+[2018.07.26-11.53.47:682][975]Cmd: DELETE
+[2018.07.26-11.53.47:682][975]Cmd: ACTOR DELETE
+[2018.07.26-11.53.47:688][975]LogEditorActor: Deleted Actor: PyCharacter
+[2018.07.26-11.53.47:704][975]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2018.07.26-11.53.57:408][137]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.26-11.53.57:548][153]LogEditor: Attempting to add actor of class 'VREditorRadialFloatingUI' to level at -7890.00,5170.00,-270.00
+[2018.07.26-11.53.58:014][205]LogEditor: Attempting to add actor of class 'VREditorRadialFloatingUI' to level at -8020.00,5200.00,-270.00
+[2018.07.26-11.53.59:732][408]Cmd: DELETE
+[2018.07.26-11.53.59:732][408]Cmd: ACTOR DELETE
+[2018.07.26-11.53.59:738][408]LogEditorActor: Deleted Actor: VREditorRadialFloatingUI
+[2018.07.26-11.53.59:753][408]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2018.07.26-11.54.10:099][638]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (TriggerBox)
+[2018.07.26-11.54.10:970][738]Cmd: SELECT NONE
+[2018.07.26-11.54.40:824][276]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ProjectR_PointofInterest2)
+[2018.07.26-11.54.48:037][105]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.26-11.55.04:291][ 53]BlueprintLog: New page: Compile ProjectR_MainHall
+[2018.07.26-11.55.07:692][418]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape1)
+[2018.07.26-11.55.07:721][418]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.26-11.55.08:856][550]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel' has LevelScriptBlueprint '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall' with GeneratedClass '/Game/ProjectR_MainHall.ProjectR_MainHall_C' with ClassGeneratedBy '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall'
+[2018.07.26-11.55.08:857][550]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.26-11.55.08:857][550]PIE: New page: PIE session: ProjectR_MainHall (Jul 26, 2018, 8:55:08 PM)
+[2018.07.26-11.55.08:857][550]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_ProjectR_MainHall
+[2018.07.26-11.55.08:876][550]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019404s)
+[2018.07.26-11.55.08:877][550]LogAIModule: Creating AISystem for world ProjectR_MainHall
+[2018.07.26-11.55.08:877][550]LogPlayLevel: PIE: World Init took: (0.000465s)
+[2018.07.26-11.55.08:877][550]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ProjectR_MainHall.ProjectR_MainHall to /Game/UEDPIE_0_ProjectR_MainHall.ProjectR_MainHall (0.020009s)
+[2018.07.26-11.55.08:894][550]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.07.26-11.55.08:908][550]LogInit: FAudioDevice initialized.
+[2018.07.26-11.55.08:908][550]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.26-11.55.08:940][550]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.07.26-11.55.08:945][550]LogWorld: Bringing World /Game/UEDPIE_0_ProjectR_MainHall.ProjectR_MainHall up for play (max tick rate 0) at 2018.07.26-16.25.08
+[2018.07.26-11.55.08:946][550]LogWorld: Bringing up level for play took: 0.005347
+[2018.07.26-11.55.08:947][550]PIE: Play in editor start time for /Game/UEDPIE_0_ProjectR_MainHall 0.207
+[2018.07.26-11.55.08:947][550]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel' has LevelScriptBlueprint '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall' with GeneratedClass '/Game/ProjectR_MainHall.ProjectR_MainHall_C' with ClassGeneratedBy '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall'
+[2018.07.26-11.55.14:104][166]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel' has LevelScriptBlueprint '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall' with GeneratedClass '/Game/ProjectR_MainHall.ProjectR_MainHall_C' with ClassGeneratedBy '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall'
+[2018.07.26-11.55.14:137][166]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel' has LevelScriptBlueprint '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall' with GeneratedClass '/Game/ProjectR_MainHall.ProjectR_MainHall_C' with ClassGeneratedBy '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall'
+[2018.07.26-11.55.16:959][472]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape1)
+[2018.07.26-11.55.16:988][472]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.26-11.55.18:080][597]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel' has LevelScriptBlueprint '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall' with GeneratedClass '/Game/ProjectR_MainHall.ProjectR_MainHall_C' with ClassGeneratedBy '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall'
+[2018.07.26-11.55.18:080][597]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.26-11.55.18:080][597]PIE: New page: PIE session: ProjectR_MainHall (Jul 26, 2018, 8:55:18 PM)
+[2018.07.26-11.55.18:080][597]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_ProjectR_MainHall
+[2018.07.26-11.55.18:100][597]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019540s)
+[2018.07.26-11.55.18:100][597]LogAIModule: Creating AISystem for world ProjectR_MainHall
+[2018.07.26-11.55.18:100][597]LogPlayLevel: PIE: World Init took: (0.000415s)
+[2018.07.26-11.55.18:100][597]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ProjectR_MainHall.ProjectR_MainHall to /Game/UEDPIE_0_ProjectR_MainHall.ProjectR_MainHall (0.020089s)
+[2018.07.26-11.55.18:118][597]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.07.26-11.55.18:132][597]LogInit: FAudioDevice initialized.
+[2018.07.26-11.55.18:132][597]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.26-11.55.18:165][597]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.07.26-11.55.18:170][597]LogWorld: Bringing World /Game/UEDPIE_0_ProjectR_MainHall.ProjectR_MainHall up for play (max tick rate 0) at 2018.07.26-16.25.18
+[2018.07.26-11.55.18:170][597]LogWorld: Bringing up level for play took: 0.005340
+[2018.07.26-11.55.18:172][597]PIE: Play in editor start time for /Game/UEDPIE_0_ProjectR_MainHall -0.569
+[2018.07.26-11.55.18:172][597]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel' has LevelScriptBlueprint '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall' with GeneratedClass '/Game/ProjectR_MainHall.ProjectR_MainHall_C' with ClassGeneratedBy '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall'
+[2018.07.26-11.55.23:285][208]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel' has LevelScriptBlueprint '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall' with GeneratedClass '/Game/ProjectR_MainHall.ProjectR_MainHall_C' with ClassGeneratedBy '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall'
+[2018.07.26-11.55.23:317][208]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel' has LevelScriptBlueprint '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall' with GeneratedClass '/Game/ProjectR_MainHall.ProjectR_MainHall_C' with ClassGeneratedBy '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall'
+[2018.07.26-11.55.24:163][304]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.26-11.55.33:663][443]BlueprintLog: New page: Compile ProjectR_MainHall
+[2018.07.26-11.55.36:497][752]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape1)
+[2018.07.26-11.55.36:525][752]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.26-11.55.37:476][862]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel' has LevelScriptBlueprint '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall' with GeneratedClass '/Game/ProjectR_MainHall.ProjectR_MainHall_C' with ClassGeneratedBy '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall'
+[2018.07.26-11.55.37:477][862]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.26-11.55.37:477][862]PIE: New page: PIE session: ProjectR_MainHall (Jul 26, 2018, 8:55:37 PM)
+[2018.07.26-11.55.37:477][862]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_ProjectR_MainHall
+[2018.07.26-11.55.37:496][862]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019626s)
+[2018.07.26-11.55.37:497][862]LogAIModule: Creating AISystem for world ProjectR_MainHall
+[2018.07.26-11.55.37:497][862]LogPlayLevel: PIE: World Init took: (0.000444s)
+[2018.07.26-11.55.37:497][862]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ProjectR_MainHall.ProjectR_MainHall to /Game/UEDPIE_0_ProjectR_MainHall.ProjectR_MainHall (0.020208s)
+[2018.07.26-11.55.37:514][862]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.07.26-11.55.37:527][862]LogInit: FAudioDevice initialized.
+[2018.07.26-11.55.37:527][862]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.26-11.55.37:558][862]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.07.26-11.55.37:563][862]LogWorld: Bringing World /Game/UEDPIE_0_ProjectR_MainHall.ProjectR_MainHall up for play (max tick rate 0) at 2018.07.26-16.25.37
+[2018.07.26-11.55.37:564][862]LogWorld: Bringing up level for play took: 0.005271
+[2018.07.26-11.55.37:566][862]PIE: Play in editor start time for /Game/UEDPIE_0_ProjectR_MainHall 0.825
+[2018.07.26-11.55.37:566][862]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel' has LevelScriptBlueprint '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall' with GeneratedClass '/Game/ProjectR_MainHall.ProjectR_MainHall_C' with ClassGeneratedBy '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall'
+[2018.07.26-11.55.50:114][365]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel' has LevelScriptBlueprint '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall' with GeneratedClass '/Game/ProjectR_MainHall.ProjectR_MainHall_C' with ClassGeneratedBy '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall'
+[2018.07.26-11.55.50:150][365]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel' has LevelScriptBlueprint '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall' with GeneratedClass '/Game/ProjectR_MainHall.ProjectR_MainHall_C' with ClassGeneratedBy '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall'
+[2018.07.26-11.55.50:661][421]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.26-11.56.00:009][542]BlueprintLog: New page: Compile ProjectR_MainHall
+[2018.07.26-11.56.02:954][858]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape1)
+[2018.07.26-11.56.02:983][858]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.26-11.56.03:941][968]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel' has LevelScriptBlueprint '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall' with GeneratedClass '/Game/ProjectR_MainHall.ProjectR_MainHall_C' with ClassGeneratedBy '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall'
+[2018.07.26-11.56.03:941][968]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.26-11.56.03:941][968]PIE: New page: PIE session: ProjectR_MainHall (Jul 26, 2018, 8:56:03 PM)
+[2018.07.26-11.56.03:941][968]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_ProjectR_MainHall
+[2018.07.26-11.56.03:961][968]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019910s)
+[2018.07.26-11.56.03:961][968]LogAIModule: Creating AISystem for world ProjectR_MainHall
+[2018.07.26-11.56.03:962][968]LogPlayLevel: PIE: World Init took: (0.000402s)
+[2018.07.26-11.56.03:962][968]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ProjectR_MainHall.ProjectR_MainHall to /Game/UEDPIE_0_ProjectR_MainHall.ProjectR_MainHall (0.020449s)
+[2018.07.26-11.56.03:979][968]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.07.26-11.56.03:993][968]LogInit: FAudioDevice initialized.
+[2018.07.26-11.56.03:993][968]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.26-11.56.04:023][968]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.07.26-11.56.04:029][968]LogWorld: Bringing World /Game/UEDPIE_0_ProjectR_MainHall.ProjectR_MainHall up for play (max tick rate 0) at 2018.07.26-16.26.04
+[2018.07.26-11.56.04:029][968]LogWorld: Bringing up level for play took: 0.005383
+[2018.07.26-11.56.04:030][968]PIE: Play in editor start time for /Game/UEDPIE_0_ProjectR_MainHall -0.71
+[2018.07.26-11.56.04:031][968]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel' has LevelScriptBlueprint '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall' with GeneratedClass '/Game/ProjectR_MainHall.ProjectR_MainHall_C' with ClassGeneratedBy '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall'
+[2018.07.26-11.56.07:512][383]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel' has LevelScriptBlueprint '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall' with GeneratedClass '/Game/ProjectR_MainHall.ProjectR_MainHall_C' with ClassGeneratedBy '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall'
+[2018.07.26-11.56.07:546][383]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel' has LevelScriptBlueprint '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall' with GeneratedClass '/Game/ProjectR_MainHall.ProjectR_MainHall_C' with ClassGeneratedBy '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall'
+[2018.07.26-11.56.08:562][500]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.26-11.56.12:327][951]BlueprintLog: New page: Compile ProjectR_MainHall
+[2018.07.26-11.56.15:318][276]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape1)
+[2018.07.26-11.56.15:347][276]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.26-11.56.16:366][392]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel' has LevelScriptBlueprint '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall' with GeneratedClass '/Game/ProjectR_MainHall.ProjectR_MainHall_C' with ClassGeneratedBy '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall'
+[2018.07.26-11.56.16:366][392]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.26-11.56.16:366][392]PIE: New page: PIE session: ProjectR_MainHall (Jul 26, 2018, 8:56:16 PM)
+[2018.07.26-11.56.16:366][392]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_ProjectR_MainHall
+[2018.07.26-11.56.16:386][392]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018977s)
+[2018.07.26-11.56.16:386][392]LogAIModule: Creating AISystem for world ProjectR_MainHall
+[2018.07.26-11.56.16:386][392]LogPlayLevel: PIE: World Init took: (0.000406s)
+[2018.07.26-11.56.16:386][392]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ProjectR_MainHall.ProjectR_MainHall to /Game/UEDPIE_0_ProjectR_MainHall.ProjectR_MainHall (0.019522s)
+[2018.07.26-11.56.16:403][392]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.07.26-11.56.16:416][392]LogInit: FAudioDevice initialized.
+[2018.07.26-11.56.16:416][392]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.26-11.56.16:444][392]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.07.26-11.56.16:449][392]LogWorld: Bringing World /Game/UEDPIE_0_ProjectR_MainHall.ProjectR_MainHall up for play (max tick rate 0) at 2018.07.26-16.26.16
+[2018.07.26-11.56.16:450][392]LogWorld: Bringing up level for play took: 0.005291
+[2018.07.26-11.56.16:451][392]PIE: Play in editor start time for /Game/UEDPIE_0_ProjectR_MainHall -0.29
+[2018.07.26-11.56.16:451][392]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel' has LevelScriptBlueprint '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall' with GeneratedClass '/Game/ProjectR_MainHall.ProjectR_MainHall_C' with ClassGeneratedBy '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall'
+[2018.07.26-11.56.58:477][431]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel' has LevelScriptBlueprint '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall' with GeneratedClass '/Game/ProjectR_MainHall.ProjectR_MainHall_C' with ClassGeneratedBy '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall'
+[2018.07.26-11.56.58:511][431]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel' has LevelScriptBlueprint '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall' with GeneratedClass '/Game/ProjectR_MainHall.ProjectR_MainHall_C' with ClassGeneratedBy '/Game/ProjectR_MainHall.ProjectR_MainHall:PersistentLevel.ProjectR_MainHall'
+[2018.07.26-11.59.09:032][594]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ProjectR_MainHall" FILE="../../../../../Workstation/ProjectR/Saved/Autosaves/Game/ProjectR_MainHall_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2018.07.26-11.59.09:371][594]LogSavePackage: Save=331.92ms
+[2018.07.26-11.59.09:371][594]LogSavePackage: Moving '../../../../../Workstation/ProjectR/Saved/ProjectR_MainHall_Auto2B847FFCA4F9F73C80F9EBAA18C635BBD.tmp' to '../../../../../Workstation/ProjectR/Saved/Autosaves/Game/ProjectR_MainHall_Auto2.umap'
+[2018.07.26-11.59.09:372][594]LogSavePackage: Display: Finished SavePackage ../../../../../Workstation/ProjectR/Saved/Autosaves/Game/ProjectR_MainHall_Auto2.umap
+[2018.07.26-11.59.09:375][594]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ProjectR_MainHall' took 0.363
+[2018.07.26-11.59.09:375][594]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.363
+[2018.07.26-12.00.22:779][522]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.26-12.00.23:673][629]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.26-12.00.23:722][629]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.26-12.00.25:197][629]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ProjectR_MainHall" FILE="../../../../../Workstation/ProjectR/Content/ProjectR_MainHall.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.07.26-12.00.25:562][629]LogSavePackage: Save=347.49ms
+[2018.07.26-12.00.25:562][629]LogSavePackage: Moving '../../../../../Workstation/ProjectR/Saved/ProjectR_MainHall10FD85034156C53517FC74BA71EC965C.tmp' to '../../../../../Workstation/ProjectR/Content/ProjectR_MainHall.umap'
+[2018.07.26-12.00.25:565][629]LogSavePackage: Display: Finished SavePackage ../../../../../Workstation/ProjectR/Content/ProjectR_MainHall.umap
+[2018.07.26-12.00.25:584][629]LogFileHelpers: Saving map 'ProjectR_MainHall' took 1.857
+[2018.07.26-12.00.26:029][682]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.26-12.00.26:985][797]SourceControl: fatal: h:/Unreal Engine/Epic Games/UE_4.19/Engine/Content: 'h:/Unreal Engine/Epic Games/UE_4.19/Engine/Content' is outside repository
+[2018.07.26-12.00.27:068][797]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.26-12.00.34:011][797]LogSlate: Window 'Submit Files' being destroyed
+[2018.07.26-12.00.34:023][797]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.26-12.00.34:051][797]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.26-12.00.36:757][797]LogSourceControl: commit successful: [master 9a60bdd] teleport
+[2018.07.26-12.00.36:778][797]SourceControl: [master 9a60bdd] teleport
+[2018.07.26-12.00.36:778][797]SourceControl:  1 file changed, 0 insertions(+), 0 deletions(-)
+[2018.07.26-12.00.36:782][797]SourceControl: Commited [master 9a60bdd] teleport.
+[2018.07.26-12.00.45:728][ 13]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.26-12.00.47:368][208]LogSlate: Window 'Message Log' being destroyed
+[2018.07.26-12.00.47:370][208]LogSlate: Window 'Message Log' being destroyed
+[2018.07.26-12.00.50:527][275]LogSlate: FSceneViewport::OnFocusLost() reason 0
